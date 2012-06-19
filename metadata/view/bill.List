@@ -1,0 +1,40 @@
+{
+    "id": "ExtBox1-ext-gen11504",
+    "type": "list",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "billList",
+        "store": "Bills",
+        "grouped": true,
+        "designer|userClassName": "bill.List",
+        "designer|userAlias": "billlist"
+    },
+    "customConfigs": [],
+    "designerId": "e1c7303d-008e-4f26-9ff2-b6347059cbbc",
+    "$viewOrder": 9,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen1904",
+            "type": "template",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "implHandler": [
+                    "<div class=\"bill\">",
+                    "{[values.titles[0].title]}",
+                    "</div>"
+                ],
+                "designer|displayName": "itemTpl",
+                "designer|userClassName": "itemTpl"
+            },
+            "customConfigs": []
+        }
+    ]
+}

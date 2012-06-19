@@ -1,0 +1,77 @@
+{
+    "id": "ExtBox1-ext-gen4545",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Committee"
+    },
+    "customConfigs": [],
+    "designerId": "111f6bd6-fb06-41bd-833f-670ee5ff0a94",
+    "$viewOrder": 1,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen44889",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "chamber",
+                "type": "string",
+                "designer|userClassName": "MyField41"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen45000",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "id",
+                "type": "string",
+                "designer|userClassName": "MyField42"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen45114",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "name",
+                "type": "string",
+                "designer|userClassName": "MyField43"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen45231",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "subcommittees",
+                "type": "string",
+                "designer|userClassName": "MyField44"
+            },
+            "customConfigs": []
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "id": "ExtBox1-ext-gen6317",
+    "type": "jsonpstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "groupField": "state",
+        "model": "Bill",
+        "storeId": "Bills",
+        "designer|userClassName": "Bills"
+    },
+    "customConfigs": [],
+    "designerId": "aee2cebc-140f-445a-8c2b-c9a226a2e62a",
+    "$viewOrder": 2,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen6324",
+            "type": "jsonpproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "limitParam": "",
+                "noCache": false,
+                "pageParam": "",
+                "startParam": "",
+                "url": "http://api.realtimecongress.org/api/v1/bills.json",
+                "designer|userClassName": "MyJsonPProxy2"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen6331",
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "bills",
+                        "designer|userClassName": "MyJsonReader2"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen1945",
+                    "type": "object",
+                    "reference": {
+                        "name": "extraParams",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "implHandler": [
+                            "{",
+                            "                apikey: '8a341f85c657435989e75c9a83294762'",
+                            "            }"
+                        ],
+                        "designer|displayName": "extraParams",
+                        "designer|userClassName": "extraParams"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "id": "ExtBox1-ext-gen9080",
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "legislatorBio",
+        "designer|userClassName": "legislator.Bio",
+        "designer|userAlias": "legislatorbio"
+    },
+    "customConfigs": [],
+    "designerId": "a6903e7e-8591-47ce-86e3-fb84fc159f71",
+    "$viewOrder": 4,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen1889",
+            "type": "template",
+            "reference": {
+                "name": "tpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "implHandler": [
+                    "<span class=\"legislator-pic\" style=\"background-image: url(http://www.govtrack.us/data/photos/{govtrack_id}-50px.jpeg);\"></span>",
+                    "<div class=\"legislator-name\">",
+                    "<div class=\"title\">{title} {firstname} {middlename} {lastname} ({party})</div>",
+                    "<div class=\"district\">{state} {district}</div>",
+                    "</div>",
+                    "",
+                    "<div class=\"x-list-normal\"><div class=\"x-list-header\">Contact Info</div></div>",
+                    "<div class=\"legislator-info\">",
+                    "Phone: {phone}<br />",
+                    "Email: {email}<br />",
+                    "Website: {website}",
+                    "</div>"
+                ],
+                "designer|displayName": "tpl",
+                "designer|userClassName": "tpl"
+            },
+            "customConfigs": []
+        }
+    ]
+}

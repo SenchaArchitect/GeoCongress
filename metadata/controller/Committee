@@ -1,0 +1,41 @@
+{
+    "id": "ExtBox1-ext-gen5052",
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Committee"
+    },
+    "customConfigs": [],
+    "designerId": "6d43f8d0-a798-4142-8199-9a34eea31541",
+    "$viewOrder": 0,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen13662",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onCommitteeTap",
+                "implHandler": [
+                    "Ext.Msg.confirm(\"Confirmation\", \"This link will open in a new window. Are you sure?\", function(result) {",
+                    "    if (result == 'yes') {",
+                    "        window.location = 'http://www.govtrack.us/congress/committee.xpd?id=' + record.getId();",
+                    "    }",
+                    "});"
+                ],
+                "name": "itemtap",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "#committeeList",
+                "designer|userClassName": "onCommitteeTap"
+            },
+            "customConfigs": []
+        }
+    ]
+}

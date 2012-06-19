@@ -1,0 +1,87 @@
+{
+    "id": "ExtBox1-ext-gen8417",
+    "type": "formpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "settingsForm",
+        "designer|userClassName": "Settings",
+        "designer|userAlias": "settings"
+    },
+    "customConfigs": [],
+    "designerId": "8432ef22-2b4a-4acf-98ac-3b69054cafa3",
+    "$viewOrder": 1,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen61713",
+            "type": "fieldset",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": null,
+                "designer|userClassName": "MyFieldSet"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen61722",
+                    "type": "selectfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "selectState",
+                        "label": "State",
+                        "displayField": "state",
+                        "store": "States",
+                        "valueField": "abbr",
+                        "designer|userClassName": "MySelectField"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen61729",
+                    "type": "spinnerfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "districtSpinner",
+                        "label": "District",
+                        "maxValue": 0,
+                        "minValue": 0,
+                        "increment": 1,
+                        "designer|userClassName": "MySpinnerField"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen63114",
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "lookupBtn",
+                "ui": "confirm",
+                "text": "Lookup",
+                "designer|userClassName": "MyButton3"
+            },
+            "customConfigs": []
+        }
+    ]
+}

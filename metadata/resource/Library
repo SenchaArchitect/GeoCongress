@@ -1,0 +1,16 @@
+{
+    "id": "ExtBox1-ext-gen1879",
+    "type": "libraryresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "basePath": "http://extjs.cachefly.net/touch/sencha-touch-2.0.0/",
+        "includeCss": false
+    },
+    "customConfigs": [],
+    "designerId": "e236a333-6e0d-4057-93bf-4006b8341ad8",
+    "$viewOrder": 0
+}

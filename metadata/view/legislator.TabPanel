@@ -1,0 +1,100 @@
+{
+    "id": "ExtBox1-ext-gen9698",
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "legislatorTabPanel",
+        "designer|userClassName": "legislator.TabPanel",
+        "designer|userAlias": "legislatortabpanel"
+    },
+    "customConfigs": [],
+    "designerId": "7e69ff50-0821-4d5b-953f-fb2ab38d1deb",
+    "$viewOrder": 7,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen11040",
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "id": "legislatorToolbar",
+                "title": null,
+                "designer|userClassName": "MyToolbar"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen26892",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "legislatorBackButton",
+                        "itemId": null,
+                        "ui": "back",
+                        "text": "Back",
+                        "designer|userClassName": "MyButton2"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen27617",
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Bio"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-linkedinstance",
+            "masterInstanceId": "ExtBox1-ext-gen9269"
+        },
+        {
+            "id": "ExtBox1-ext-gen28541",
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "store": null,
+                "title": "Bills"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-linkedinstance",
+            "masterInstanceId": "ExtBox1-ext-gen11504"
+        },
+        {
+            "id": "ExtBox1-ext-gen29587",
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Votes"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-linkedinstance",
+            "masterInstanceId": "ExtBox1-ext-gen8850"
+        }
+    ]
+}

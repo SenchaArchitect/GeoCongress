@@ -1,0 +1,75 @@
+{
+    "id": "ExtBox1-ext-gen6683",
+    "type": "jsonpstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "groupField": "fullTitle",
+        "model": "Legislator",
+        "storeId": "Legislators",
+        "designer|userClassName": "Legislators"
+    },
+    "customConfigs": [],
+    "designerId": "8ea65e8e-858e-4f67-913c-f25b9c30487a",
+    "$viewOrder": 3,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen6690",
+            "type": "jsonpproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "limitParam": "",
+                "noCache": false,
+                "pageParam": "",
+                "startParam": "",
+                "url": "http://services.sunlightlabs.com/api/legislators.getList.json",
+                "callbackKey": "jsonp",
+                "designer|userClassName": "MyJsonPProxy3"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen6697",
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "response.legislators",
+                        "record": "legislator",
+                        "designer|userClassName": "MyJsonReader3"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen1956",
+                    "type": "object",
+                    "reference": {
+                        "name": "extraParams",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "implHandler": [
+                            "{",
+                            "                apikey: '8a341f85c657435989e75c9a83294762'",
+                            "            }"
+                        ],
+                        "designer|displayName": "extraParams",
+                        "designer|userClassName": "extraParams"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "id": "ExtBox1-ext-gen11279",
+    "type": "list",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "committeeList",
+        "store": "Committees",
+        "designer|userClassName": "committee.List",
+        "designer|userAlias": "committeelist"
+    },
+    "customConfigs": [],
+    "designerId": "e020b7c4-7fa0-4cad-94ae-db3d25607568",
+    "$viewOrder": 8,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen1899",
+            "type": "template",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "implHandler": [
+                    "<div class=\"committee\">{name}</div>"
+                ],
+                "designer|displayName": "itemTpl",
+                "designer|userClassName": "itemTpl"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen1914",
+            "type": "object",
+            "reference": {
+                "name": "scrollable",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "implHandler": [
+                    "false"
+                ],
+                "designer|displayName": "scrollable",
+                "designer|userClassName": "scrollable"
+            },
+            "customConfigs": []
+        }
+    ]
+}

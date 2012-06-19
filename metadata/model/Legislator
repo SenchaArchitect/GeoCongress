@@ -1,0 +1,521 @@
+{
+    "id": "ExtBox1-ext-gen4622",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Legislator"
+    },
+    "customConfigs": [],
+    "designerId": "ef7f9787-0338-42d1-b4c6-b53dc98aa434",
+    "$viewOrder": 2,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen46030",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "website",
+                "type": "string",
+                "designer|userClassName": "MyField45"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen46141",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "fax",
+                "type": "string",
+                "designer|userClassName": "MyField46"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen46255",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "govtrack_id",
+                "type": "string",
+                "designer|userClassName": "MyField47"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen46372",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "firstname",
+                "type": "string",
+                "designer|userClassName": "MyField48"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen46492",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "chamber",
+                "type": "string",
+                "designer|userClassName": "MyField49"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen46615",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "middlename",
+                "type": "string",
+                "designer|userClassName": "MyField50"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen46741",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "lastname",
+                "type": "string",
+                "designer|userClassName": "MyField51"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen46870",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "congress_office",
+                "type": "string",
+                "designer|userClassName": "MyField52"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen47002",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "eventful_id",
+                "type": "string",
+                "designer|userClassName": "MyField53"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen47137",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "phone",
+                "type": "string",
+                "designer|userClassName": "MyField54"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen47275",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "webform",
+                "type": "string",
+                "designer|userClassName": "MyField55"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen47416",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "youtube_url",
+                "type": "string",
+                "designer|userClassName": "MyField56"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen47560",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "nickname",
+                "type": "string",
+                "designer|userClassName": "MyField57"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen47707",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "gender",
+                "type": "string",
+                "designer|userClassName": "MyField58"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen47857",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "district",
+                "type": "string",
+                "designer|userClassName": "MyField59"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen48010",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "title",
+                "type": "string",
+                "designer|userClassName": "MyField60"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen48166",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "fullTitle",
+                "type": "string",
+                "designer|userClassName": "MyField61"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen52822",
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "convert",
+                        "designer|params": [
+                            "v",
+                            "rec"
+                        ],
+                        "implHandler": [
+                            "return rec.data.title === 'Rep' ? 'Representatives' : 'Senators';"
+                        ],
+                        "designer|userClassName": "convert"
+                    },
+                    "customConfigs": [],
+                    "iconCls": "icon-basic-function"
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen48325",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "congresspedia_url",
+                "type": "string",
+                "designer|userClassName": "MyField62"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen48487",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "in_office",
+                "type": "boolean",
+                "designer|userClassName": "MyField63"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen48652",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "senate_class",
+                "type": "string",
+                "designer|userClassName": "MyField64"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen48820",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "name_suffix",
+                "type": "string",
+                "designer|userClassName": "MyField65"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen48991",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "twitter_id",
+                "type": "string",
+                "designer|userClassName": "MyField66"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen49165",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "birthdate",
+                "type": "string",
+                "designer|userClassName": "MyField67"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen49342",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "bioguide_id",
+                "type": "string",
+                "designer|userClassName": "MyField68"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen49522",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "fec_id",
+                "type": "string",
+                "designer|userClassName": "MyField69"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen49705",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "state",
+                "type": "string",
+                "designer|userClassName": "MyField70"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen49891",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "crp_id",
+                "type": "string",
+                "designer|userClassName": "MyField71"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen50080",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "official_rss",
+                "type": "string",
+                "designer|userClassName": "MyField72"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen50272",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "facebook_id",
+                "type": "string",
+                "designer|userClassName": "MyField73"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen50467",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "party",
+                "type": "string",
+                "designer|userClassName": "MyField74"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen50665",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "email",
+                "type": "string",
+                "designer|userClassName": "MyField75"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen50866",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "votesmart_id",
+                "type": "string",
+                "designer|userClassName": "MyField76"
+            },
+            "customConfigs": []
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "id": "ExtBox1-ext-gen11739",
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "scrollable": "vertical",
+        "designer|userClassName": "bill.Show"
+    },
+    "customConfigs": [],
+    "designerId": "d60d5080-fb6a-4be8-b238-fe01248ff4ae",
+    "$viewOrder": 10,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen11943",
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "id": "billSummaryToolbar",
+                "designer|userClassName": "MyToolbar1"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen12666",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "billSummaryBackButton",
+                        "ui": "back",
+                        "text": "Back",
+                        "designer|userClassName": "MyButton"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen1909",
+            "type": "template",
+            "reference": {
+                "name": "tpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "implHandler": [
+                    "{summary}"
+                ],
+                "designer|displayName": "tpl",
+                "designer|userClassName": "tpl"
+            },
+            "customConfigs": []
+        }
+    ]
+}

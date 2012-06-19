@@ -1,0 +1,71 @@
+{
+    "id": "ExtBox1-ext-gen5951",
+    "type": "jsonpstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "groupField": "chamber",
+        "model": "Committee",
+        "storeId": "Committees",
+        "designer|userClassName": "Committees"
+    },
+    "customConfigs": [],
+    "designerId": "b67e2576-b2f5-4ed0-84c6-b6517252bfa9",
+    "$viewOrder": 1,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen5958",
+            "type": "jsonpproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "http://services.sunlightlabs.com/api/committees.allForLegislator",
+                "callbackKey": "jsonp",
+                "designer|userClassName": "MyJsonPProxy1"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen5965",
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "response.committees",
+                        "record": "committee",
+                        "designer|userClassName": "MyJsonReader1"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen1934",
+                    "type": "object",
+                    "reference": {
+                        "name": "extraParams",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "implHandler": [
+                            "{",
+                            "                apikey: '8a341f85c657435989e75c9a83294762'",
+                            "            }"
+                        ],
+                        "designer|displayName": "extraParams",
+                        "designer|userClassName": "extraParams"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        }
+    ]
+}

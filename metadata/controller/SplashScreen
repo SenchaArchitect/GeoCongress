@@ -1,0 +1,286 @@
+{
+    "id": "ExtBox1-ext-gen5294",
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "SplashScreen"
+    },
+    "customConfigs": [],
+    "designerId": "a8f0a3e9-df3c-45a3-9e4d-a77f4a5c233a",
+    "$viewOrder": 2,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen18208",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onStateChange",
+                "implHandler": [
+                    "if (newValue) {",
+                    "    this.currentState = newValue;",
+                    "}",
+                    "if (Ext.getCmp('districtSpinner')) {",
+                    "    this.updateDistrict();",
+                    "}"
+                ],
+                "name": "change",
+                "designer|targetType": "Ext.field.Select",
+                "designer|controlQuery": "#selectState",
+                "designer|userClassName": "onStateChange"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen18623",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onLookupTap",
+                "implHandler": [
+                    "this.currentDistrict = Ext.getCmp('districtSpinner').getValue();",
+                    "this.loadLegislators();",
+                    "this.onSettingsTap();"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#lookupBtn",
+                "designer|userClassName": "onLookupTap"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen19038",
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "init",
+                "implHandler": [
+                    "this.location = Ext.create('Ext.util.Geolocation', {",
+                    "    autoUpdate: false,",
+                    "    listeners: {",
+                    "        locationupdate: 'onLocationUpdate',",
+                    "        locationerror: 'onLocationError',",
+                    "        scope: this",
+                    "    }",
+                    "});",
+                    "this.location.updateLocation();"
+                ],
+                "designer|userClassName": "init"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-basic-function"
+        },
+        {
+            "id": "ExtBox1-ext-gen19224",
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onLocationUpdate",
+                "implHandler": [
+                    "this.hasLocation = true;",
+                    "Ext.getStore('Districts').load({",
+                    "    params: {",
+                    "        latitude: this.location.getLatitude(),",
+                    "        longitude: this.location.getLongitude()",
+                    "    },",
+                    "    callback: function(records) {",
+                    "        var district = records && records[0];",
+                    "",
+                    "        if (district) {",
+                    "            var store = Ext.getStore('States'),",
+                    "                idx = store.find('abbr', district.data.state),",
+                    "                state = store.getAt(idx);",
+                    "",
+                    "            this.currentDistrict = district.data.number;",
+                    "",
+                    "            if (state) {",
+                    "                this.currentState = state;",
+                    "                this.loadLegislators();",
+                    "                this.updateSettings();",
+                    "            }",
+                    "        }",
+                    "    },",
+                    "    scope: this",
+                    "});"
+                ],
+                "designer|userClassName": "onLocationUpdate"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen19492",
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onLocationError",
+                "implHandler": [
+                    "this.hasLocation = true;",
+                    "Ext.getStore('Districts').load({",
+                    "    params: {",
+                    "        latitude: 37.381592,",
+                    "        longitude: -122.135672",
+                    "    },",
+                    "    callback: function(records) {",
+                    "        var district = records && records[0];",
+                    "",
+                    "        this.onSettingsTap();",
+                    "",
+                    "        if (district) {",
+                    "            var store = Ext.getStore('States'),",
+                    "                idx = store.find('abbr', district.data.state),",
+                    "                state = store.getAt(idx);",
+                    "",
+                    "            this.currentDistrict = district.data.number;",
+                    "",
+                    "            if (state) {",
+                    "                this.currentState = state;",
+                    "                this.loadLegislators();",
+                    "                this.updateSettings();",
+                    "            }",
+                    "        }",
+                    "        Ext.Msg.alert('Geolocation Unavailable', 'Setting your default location to Sencha HQ');",
+                    "    },",
+                    "    scope: this",
+                    "});"
+                ],
+                "designer|userClassName": "onLocationError"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen20040",
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "updateSettings",
+                "implHandler": [
+                    "Ext.getCmp('selectState').setValue(this.currentState.data.abbr);",
+                    "this.updateDistrict();"
+                ],
+                "designer|userClassName": "updateSettings"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen20278",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onSettingsTap",
+                "implHandler": [
+                    "if (!this.hasLocation) {",
+                    "    this.onLocationError();",
+                    "    return;",
+                    "}",
+                    "var splashScreen = Ext.getCmp('splashScreen');",
+                    "",
+                    "if (splashScreen.getActiveItem() == Ext.getCmp('settingsForm')) {",
+                    "    splashScreen.setActiveItem(Ext.getCmp('legislatorList'));",
+                    "} else {",
+                    "    splashScreen.setActiveItem(Ext.getCmp('settingsForm'));",
+                    "}"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#settingsBtn",
+                "designer|userClassName": "onSettingsTap"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen20888",
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "updateDistrict",
+                "implHandler": [
+                    "Ext.getCmp('districtSpinner').setMaxValue(this.currentState.data.maxDistrict);",
+                    "Ext.getCmp('districtSpinner').setValue(this.currentDistrict || 0);"
+                ],
+                "designer|userClassName": "updateDistrict"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen21156",
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "loadLegislators",
+                "implHandler": [
+                    "var title = this.currentState.data.abbr + ' District ' + this.currentDistrict,",
+                    "    store = Ext.getStore('Legislators'),",
+                    "    splashToolbar = Ext.getCmp('splashToolbar');",
+                    "",
+                    "// If the current legislators are already loaded, don't re-load",
+                    "if (splashToolbar.getTitle() == title) {",
+                    "    return;",
+                    "}",
+                    "",
+                    "splashToolbar.setTitle(title);",
+                    "",
+                    "// First look up the Representative, then the senators for the state.",
+                    "// The current API doesn't support this in a single query",
+                    "store.load({",
+                    "    params: {",
+                    "        state: this.currentState.data.abbr,",
+                    "        district: this.currentDistrict",
+                    "    },",
+                    "    callback: function() {",
+                    "        store.load({",
+                    "            params: {",
+                    "                state: this.currentState.data.abbr,",
+                    "                title: 'Sen'",
+                    "            },",
+                    "            addRecords: true",
+                    "        });",
+                    "    },",
+                    "    scope: this",
+                    "});"
+                ],
+                "designer|userClassName": "loadLegislators"
+            },
+            "customConfigs": []
+        }
+    ]
+}

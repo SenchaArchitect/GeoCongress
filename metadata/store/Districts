@@ -1,0 +1,97 @@
+{
+    "id": "ExtBox1-ext-gen5585",
+    "type": "jsonpstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "storeId": "Districts",
+        "designer|userClassName": "Districts"
+    },
+    "customConfigs": [],
+    "designerId": "12a66509-0910-4b3b-abf9-d6e5b306d370",
+    "$viewOrder": 0,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen5592",
+            "type": "jsonpproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "http://services.sunlightlabs.com/api/districts.getDistrictFromLatLong",
+                "callbackKey": "jsonp",
+                "designer|userClassName": "MyJsonPProxy"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen5599",
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "response.districts",
+                        "record": "district",
+                        "designer|userClassName": "MyJsonReader"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen1919",
+                    "type": "object",
+                    "reference": {
+                        "name": "extraParams",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "implHandler": [
+                            "{",
+                            "                apikey: '8a341f85c657435989e75c9a83294762'",
+                            "            }"
+                        ],
+                        "designer|displayName": "extraParams",
+                        "designer|userClassName": "extraParams"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen32064",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "state",
+                "designer|userClassName": "MyField"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen32172",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "number",
+                "designer|userClassName": "MyField1"
+            },
+            "customConfigs": []
+        }
+    ]
+}
