@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen5951",
     "type": "jsonpstore",
     "reference": {
         "name": "items",
@@ -7,17 +6,15 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|userClassName": "Committees",
         "groupField": "chamber",
         "model": "Committee",
-        "storeId": "Committees",
-        "designer|userClassName": "Committees"
+        "storeId": "Committees"
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen5951",
     "designerId": "b67e2576-b2f5-4ed0-84c6-b6517252bfa9",
-    "$viewOrder": 1,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen5958",
             "type": "jsonpproxy",
             "reference": {
                 "name": "proxy",
@@ -25,14 +22,13 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyJsonPProxy1",
+                "extraParams": "{\n    apiKey: '8a341f85c657435989e75c9a83294762'\n}\n",
                 "url": "http://services.sunlightlabs.com/api/committees.allForLegislator",
-                "callbackKey": "jsonp",
-                "designer|userClassName": "MyJsonPProxy1"
+                "callbackKey": "jsonp"
             },
-            "customConfigs": [],
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen5965",
                     "type": "jsonreader",
                     "reference": {
                         "name": "reader",
@@ -40,30 +36,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "MyJsonReader1",
                         "rootProperty": "response.committees",
-                        "record": "committee",
-                        "designer|userClassName": "MyJsonReader1"
-                    },
-                    "customConfigs": []
-                },
-                {
-                    "id": "ExtBox1-ext-gen1934",
-                    "type": "object",
-                    "reference": {
-                        "name": "extraParams",
-                        "type": "object"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "implHandler": [
-                            "{",
-                            "                apikey: '8a341f85c657435989e75c9a83294762'",
-                            "            }"
-                        ],
-                        "designer|displayName": "extraParams",
-                        "designer|userClassName": "extraParams"
-                    },
-                    "customConfigs": []
+                        "record": "committee"
+                    }
                 }
             ]
         }

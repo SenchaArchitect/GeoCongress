@@ -3,19 +3,21 @@
     "settings": {
         "urlPrefix": "http://localhost/GeoCongress/",
         "spacesToIndent": 4,
-        "codeGenFormat": "Class",
         "exportPath": "",
-        "senchaIoKey": "",
-        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
         "lineEnding": "LF",
-        "instantiateStore": true,
         "genTimestamps": false,
         "cacheBust": false,
+        "codeGenFormat": "Class",
+        "senchaIoKey": "",
+        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
+        "instantiateStore": true,
         "saveOnDeploy": false,
         "appName": "MyApp"
     },
     "xdsVersion": "2.0.0",
-    "xdsBuild": 210000000501,
+    "xdsBuild": 550,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000495,
     "framework": "touch20",
     "topInstanceFileMap": {
         "12706d8b-0c1d-46d6-b70c-5500b2698dfc": {
@@ -222,5 +224,46 @@
             ],
             "className": "Library"
         }
+    },
+    "viewOrderMap": {
+        "view": [
+            "9f6b7c8b-35c6-4de4-8472-810eb69988eb",
+            "8432ef22-2b4a-4acf-98ac-3b69054cafa3",
+            "afeaade4-863e-49b7-950d-e78b46bf3c47",
+            "12706d8b-0c1d-46d6-b70c-5500b2698dfc",
+            "e1c7303d-008e-4f26-9ff2-b6347059cbbc",
+            "d60d5080-fb6a-4be8-b238-fe01248ff4ae",
+            "e020b7c4-7fa0-4cad-94ae-db3d25607568",
+            "a6903e7e-8591-47ce-86e3-fb84fc159f71",
+            "1df0b8ea-7af7-4344-937e-23fd2684f7d4",
+            "89c3dc04-40b8-42c4-94ce-a6b375452470",
+            "7e69ff50-0821-4d5b-953f-fb2ab38d1deb"
+        ],
+        "store": [
+            "12a66509-0910-4b3b-abf9-d6e5b306d370",
+            "b67e2576-b2f5-4ed0-84c6-b6517252bfa9",
+            "aee2cebc-140f-445a-8c2b-c9a226a2e62a",
+            "8ea65e8e-858e-4f67-913c-f25b9c30487a",
+            "ea8c31be-808e-45a6-a301-ce51530fab33",
+            "0590bf4b-b4ee-40d8-8fd5-2faae4ac9ff9"
+        ],
+        "controller": [
+            "6d43f8d0-a798-4142-8199-9a34eea31541",
+            "7519b28b-d373-4e48-a46f-de8b78af31ae",
+            "a8f0a3e9-df3c-45a3-9e4d-a77f4a5c233a"
+        ],
+        "model": [
+            "f47d8b22-54f9-421d-9a3e-1eab20ec81f5",
+            "111f6bd6-fb06-41bd-833f-670ee5ff0a94",
+            "ef7f9787-0338-42d1-b4c6-b53dc98aa434",
+            "371ec8fa-90f3-486a-9074-457702f0d73e"
+        ],
+        "resource": [
+            "e236a333-6e0d-4057-93bf-4006b8341ad8",
+            "f0c49f6b-567a-4de2-8b48-a06c93e892a9"
+        ],
+        "app": [
+            "application"
+        ]
     }
 }

@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen4622",
     "type": "datamodel",
     "reference": {
         "name": "items",
@@ -9,12 +8,10 @@
     "userConfig": {
         "designer|userClassName": "Legislator"
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen4622",
     "designerId": "ef7f9787-0338-42d1-b4c6-b53dc98aa434",
-    "$viewOrder": 2,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen46030",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -22,14 +19,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField45",
                 "name": "website",
-                "type": "string",
-                "designer|userClassName": "MyField45"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen46141",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -37,14 +32,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField46",
                 "name": "fax",
-                "type": "string",
-                "designer|userClassName": "MyField46"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen46255",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -52,14 +45,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField47",
                 "name": "govtrack_id",
-                "type": "string",
-                "designer|userClassName": "MyField47"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen46372",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -67,14 +58,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField48",
                 "name": "firstname",
-                "type": "string",
-                "designer|userClassName": "MyField48"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen46492",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -82,14 +71,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField49",
                 "name": "chamber",
-                "type": "string",
-                "designer|userClassName": "MyField49"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen46615",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -97,14 +84,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField50",
                 "name": "middlename",
-                "type": "string",
-                "designer|userClassName": "MyField50"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen46741",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -112,14 +97,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField51",
                 "name": "lastname",
-                "type": "string",
-                "designer|userClassName": "MyField51"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen46870",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -127,14 +110,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField52",
                 "name": "congress_office",
-                "type": "string",
-                "designer|userClassName": "MyField52"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen47002",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -142,14 +123,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField53",
                 "name": "eventful_id",
-                "type": "string",
-                "designer|userClassName": "MyField53"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen47137",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -157,14 +136,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField54",
                 "name": "phone",
-                "type": "string",
-                "designer|userClassName": "MyField54"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen47275",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -172,14 +149,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField55",
                 "name": "webform",
-                "type": "string",
-                "designer|userClassName": "MyField55"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen47416",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -187,14 +162,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField56",
                 "name": "youtube_url",
-                "type": "string",
-                "designer|userClassName": "MyField56"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen47560",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -202,14 +175,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField57",
                 "name": "nickname",
-                "type": "string",
-                "designer|userClassName": "MyField57"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen47707",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -217,14 +188,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField58",
                 "name": "gender",
-                "type": "string",
-                "designer|userClassName": "MyField58"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen47857",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -232,14 +201,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField59",
                 "name": "district",
-                "type": "string",
-                "designer|userClassName": "MyField59"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen48010",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -247,14 +214,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField60",
                 "name": "title",
-                "type": "string",
-                "designer|userClassName": "MyField60"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen48166",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -262,14 +227,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField61",
                 "name": "fullTitle",
-                "type": "string",
-                "designer|userClassName": "MyField61"
+                "type": "string"
             },
-            "customConfigs": [],
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen52822",
                     "type": "fixedfunction",
                     "reference": {
                         "name": "items",
@@ -277,6 +240,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "convert",
                         "fn": "convert",
                         "designer|params": [
                             "v",
@@ -284,16 +248,13 @@
                         ],
                         "implHandler": [
                             "return rec.data.title === 'Rep' ? 'Representatives' : 'Senators';"
-                        ],
-                        "designer|userClassName": "convert"
+                        ]
                     },
-                    "customConfigs": [],
                     "iconCls": "icon-basic-function"
                 }
             ]
         },
         {
-            "id": "ExtBox1-ext-gen48325",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -301,14 +262,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField62",
                 "name": "congresspedia_url",
-                "type": "string",
-                "designer|userClassName": "MyField62"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen48487",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -316,14 +275,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField63",
                 "name": "in_office",
-                "type": "boolean",
-                "designer|userClassName": "MyField63"
-            },
-            "customConfigs": []
+                "type": "boolean"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen48652",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -331,14 +288,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField64",
                 "name": "senate_class",
-                "type": "string",
-                "designer|userClassName": "MyField64"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen48820",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -346,14 +301,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField65",
                 "name": "name_suffix",
-                "type": "string",
-                "designer|userClassName": "MyField65"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen48991",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -361,14 +314,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField66",
                 "name": "twitter_id",
-                "type": "string",
-                "designer|userClassName": "MyField66"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen49165",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -376,14 +327,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField67",
                 "name": "birthdate",
-                "type": "string",
-                "designer|userClassName": "MyField67"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen49342",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -391,14 +340,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField68",
                 "name": "bioguide_id",
-                "type": "string",
-                "designer|userClassName": "MyField68"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen49522",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -406,14 +353,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField69",
                 "name": "fec_id",
-                "type": "string",
-                "designer|userClassName": "MyField69"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen49705",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -421,14 +366,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField70",
                 "name": "state",
-                "type": "string",
-                "designer|userClassName": "MyField70"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen49891",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -436,14 +379,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField71",
                 "name": "crp_id",
-                "type": "string",
-                "designer|userClassName": "MyField71"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen50080",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -451,14 +392,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField72",
                 "name": "official_rss",
-                "type": "string",
-                "designer|userClassName": "MyField72"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen50272",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -466,14 +405,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField73",
                 "name": "facebook_id",
-                "type": "string",
-                "designer|userClassName": "MyField73"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen50467",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -481,14 +418,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField74",
                 "name": "party",
-                "type": "string",
-                "designer|userClassName": "MyField74"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen50665",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -496,14 +431,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField75",
                 "name": "email",
-                "type": "string",
-                "designer|userClassName": "MyField75"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen50866",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -511,11 +444,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField76",
                 "name": "votesmart_id",
-                "type": "string",
-                "designer|userClassName": "MyField76"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         }
     ]
 }

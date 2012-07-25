@@ -60,6 +60,7 @@ Ext.define('GeoCon.view.Splash', {
             type: 'slide',
             direction: dir
         });
+
     }
 
 });

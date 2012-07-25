@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen6317",
     "type": "jsonpstore",
     "reference": {
         "name": "items",
@@ -7,17 +6,15 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|userClassName": "Bills",
         "groupField": "state",
         "model": "Bill",
-        "storeId": "Bills",
-        "designer|userClassName": "Bills"
+        "storeId": "Bills"
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen6317",
     "designerId": "aee2cebc-140f-445a-8c2b-c9a226a2e62a",
-    "$viewOrder": 2,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen6324",
             "type": "jsonpproxy",
             "reference": {
                 "name": "proxy",
@@ -25,17 +22,16 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyJsonPProxy2",
+                "extraParams": "{\n    apiKey: '8a341f85c657435989e75c9a83294762'\n}\n",
                 "limitParam": "",
                 "noCache": false,
                 "pageParam": "",
                 "startParam": "",
-                "url": "http://api.realtimecongress.org/api/v1/bills.json",
-                "designer|userClassName": "MyJsonPProxy2"
+                "url": "http://api.realtimecongress.org/api/v1/bills.json"
             },
-            "customConfigs": [],
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen6331",
                     "type": "jsonreader",
                     "reference": {
                         "name": "reader",
@@ -43,29 +39,9 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "rootProperty": "bills",
-                        "designer|userClassName": "MyJsonReader2"
-                    },
-                    "customConfigs": []
-                },
-                {
-                    "id": "ExtBox1-ext-gen1945",
-                    "type": "object",
-                    "reference": {
-                        "name": "extraParams",
-                        "type": "object"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "implHandler": [
-                            "{",
-                            "                apikey: '8a341f85c657435989e75c9a83294762'",
-                            "            }"
-                        ],
-                        "designer|displayName": "extraParams",
-                        "designer|userClassName": "extraParams"
-                    },
-                    "customConfigs": []
+                        "designer|userClassName": "MyJsonReader2",
+                        "rootProperty": "bills"
+                    }
                 }
             ]
         }

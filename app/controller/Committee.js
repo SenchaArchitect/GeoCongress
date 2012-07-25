@@ -22,6 +22,7 @@ Ext.define('GeoCon.controller.Committee', {
                 itemtap: 'onCommitteeTap'
             }
         }
+
     },
 
     onCommitteeTap: function(dataview, index, target, record, e, options) {
@@ -30,6 +31,7 @@ Ext.define('GeoCon.controller.Committee', {
                 window.location = 'http://www.govtrack.us/congress/committee.xpd?id=' + record.getId();
             }
         });
+
     }
 
 });

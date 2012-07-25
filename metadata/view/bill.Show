@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen11739",
     "type": "container",
     "reference": {
         "name": "items",
@@ -7,15 +6,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "scrollable": "vertical",
-        "designer|userClassName": "bill.Show"
+        "designer|userClassName": "bill.Show",
+        "scrollable": "vertical"
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen11739",
     "designerId": "d60d5080-fb6a-4be8-b238-fe01248ff4ae",
-    "$viewOrder": 10,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen11943",
             "type": "toolbar",
             "reference": {
                 "name": "items",
@@ -23,14 +20,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyToolbar1",
                 "docked": "top",
-                "id": "billSummaryToolbar",
-                "designer|userClassName": "MyToolbar1"
+                "id": "billSummaryToolbar"
             },
-            "customConfigs": [],
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen12666",
                     "type": "button",
                     "reference": {
                         "name": "items",
@@ -38,17 +33,15 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "MyButton",
                         "id": "billSummaryBackButton",
                         "ui": "back",
-                        "text": "Back",
-                        "designer|userClassName": "MyButton"
-                    },
-                    "customConfigs": []
+                        "text": "Back"
+                    }
                 }
             ]
         },
         {
-            "id": "ExtBox1-ext-gen1909",
             "type": "template",
             "reference": {
                 "name": "tpl",
@@ -56,13 +49,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "tpl",
                 "implHandler": [
                     "{summary}"
                 ],
-                "designer|displayName": "tpl",
-                "designer|userClassName": "tpl"
-            },
-            "customConfigs": []
+                "designer|displayName": "tpl"
+            }
         }
     ]
 }

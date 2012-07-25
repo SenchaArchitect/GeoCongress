@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen5585",
     "type": "jsonpstore",
     "reference": {
         "name": "items",
@@ -7,15 +6,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "storeId": "Districts",
-        "designer|userClassName": "Districts"
+        "designer|userClassName": "Districts",
+        "storeId": "Districts"
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen5585",
     "designerId": "12a66509-0910-4b3b-abf9-d6e5b306d370",
-    "$viewOrder": 0,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen5592",
             "type": "jsonpproxy",
             "reference": {
                 "name": "proxy",
@@ -23,14 +20,13 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyJsonPProxy",
+                "extraParams": "{\n    apiKey: '8a341f85c657435989e75c9a83294762'\n}\n",
                 "url": "http://services.sunlightlabs.com/api/districts.getDistrictFromLatLong",
-                "callbackKey": "jsonp",
-                "designer|userClassName": "MyJsonPProxy"
+                "callbackKey": "jsonp"
             },
-            "customConfigs": [],
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen5599",
                     "type": "jsonreader",
                     "reference": {
                         "name": "reader",
@@ -38,35 +34,14 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "MyJsonReader",
                         "rootProperty": "response.districts",
-                        "record": "district",
-                        "designer|userClassName": "MyJsonReader"
-                    },
-                    "customConfigs": []
-                },
-                {
-                    "id": "ExtBox1-ext-gen1919",
-                    "type": "object",
-                    "reference": {
-                        "name": "extraParams",
-                        "type": "object"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "implHandler": [
-                            "{",
-                            "                apikey: '8a341f85c657435989e75c9a83294762'",
-                            "            }"
-                        ],
-                        "designer|displayName": "extraParams",
-                        "designer|userClassName": "extraParams"
-                    },
-                    "customConfigs": []
+                        "record": "district"
+                    }
                 }
             ]
         },
         {
-            "id": "ExtBox1-ext-gen32064",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -74,13 +49,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "state",
-                "designer|userClassName": "MyField"
-            },
-            "customConfigs": []
+                "designer|userClassName": "MyField",
+                "name": "state"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen32172",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -88,10 +61,9 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "number",
-                "designer|userClassName": "MyField1"
-            },
-            "customConfigs": []
+                "designer|userClassName": "MyField1",
+                "name": "number"
+            }
         }
     ]
 }

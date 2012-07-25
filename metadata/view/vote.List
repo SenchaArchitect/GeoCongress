@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen8850",
     "type": "list",
     "reference": {
         "name": "items",
@@ -7,19 +6,17 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|userClassName": "vote.List",
+        "designer|userAlias": "votelist",
         "id": "voteList",
         "store": "Votes",
         "disableSelection": true,
-        "grouped": true,
-        "designer|userClassName": "vote.List",
-        "designer|userAlias": "votelist"
+        "grouped": true
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen8850",
     "designerId": "89c3dc04-40b8-42c4-94ce-a6b375452470",
-    "$viewOrder": 3,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen1884",
             "type": "template",
             "reference": {
                 "name": "itemTpl",
@@ -27,6 +24,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "itemTpl",
                 "implHandler": [
                     "<div class=\"vote\">",
                     "{question}",
@@ -36,10 +34,8 @@
                     "</div>",
                     ""
                 ],
-                "designer|displayName": "itemTpl",
-                "designer|userClassName": "itemTpl"
-            },
-            "customConfigs": []
+                "designer|displayName": "itemTpl"
+            }
         }
     ]
 }

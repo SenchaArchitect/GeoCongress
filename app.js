@@ -37,11 +37,7 @@ Ext.application({
         'legislator.TabPanel',
         'bill.Show'
     ],
-    glossOnIcon: false,
-    icon: 'resources/icons/icon.png',
     name: 'GeoCon',
-    phoneStartupScreen: 'resources/loading/Homescreen.jpg',
-    tabletStartupScreen: 'resources/loading/Homescreen~ipad.jpg',
     controllers: [
         'Committee',
         'Legislator',
@@ -51,6 +47,7 @@ Ext.application({
     launch: function() {
 
         Ext.create('GeoCon.view.Main', {fullscreen: true});
+
     }
 
 });

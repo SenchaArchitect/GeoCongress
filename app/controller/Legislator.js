@@ -38,10 +38,12 @@ Ext.define('GeoCon.controller.Legislator', {
                 tap: 'onBillSummaryBackButtonTap'
             }
         }
+
     },
 
     onLegislatorShow: function(container, newActiveItem, oldActiveItem, options) {
         Ext.getCmp('viewport').getLayout().getAnimation().setReverse(false);
+
     },
 
     onLegislatorTap: function(dataview, index, target, record, e, options) {
@@ -73,6 +75,7 @@ Ext.define('GeoCon.controller.Legislator', {
         Ext.getCmp('legislatorBio').setData(this.currentLegislator);
         Ext.getCmp('legislatorToolbar').setTitle(this.currentLegislator.title + " " + this.currentLegislator.lastname);
         Ext.getCmp('legislatorTabPanel').setActiveItem(0);
+
     },
 
     onBillListActivate: function(container, newActiveItem, oldActiveItem, options) {
@@ -84,6 +87,7 @@ Ext.define('GeoCon.controller.Legislator', {
             });
             this.currentBills = this.currentLegislator.bioguide_id;
         }
+
     },
 
     onBillTap: function(dataview, index, target, record, e, options) {
@@ -101,6 +105,7 @@ Ext.define('GeoCon.controller.Legislator', {
         }
 
         Ext.getCmp('billSummaryToolbar').setTitle(record.data.bill_id);
+
     },
 
     onVoteListActivate: function(container, newActiveItem, oldActiveItem, options) {
@@ -117,16 +122,19 @@ Ext.define('GeoCon.controller.Legislator', {
 
             this.currentVotes = this.currentLegislator.bioguide_id;
         }
+
     },
 
     onLegislatorBackButtonTap: function(button, e, options) {
         Ext.getCmp('splashScreen').animateTo('right');
         Ext.getCmp('viewport').setActiveItem(Ext.getCmp('splashScreen'));
+
     },
 
     onBillSummaryBackButtonTap: function(button, e, options) {
         Ext.getCmp('splashScreen').animateTo('right');
         Ext.getCmp('viewport').setActiveItem(Ext.getCmp('legislatorTabPanel'));
+
     }
 
 });

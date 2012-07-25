@@ -77,6 +77,7 @@ Ext.define('GeoCon.model.Vote', {
             {
                 convert: function(v, rec) {
                     return Ext.Date.format(rec.data.voted_at, 'F j, Y');
+
                 },
                 name: 'voted_at_str',
                 type: 'string'

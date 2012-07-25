@@ -27,7 +27,7 @@ Ext.define('GeoCon.store.Bills', {
         proxy: {
             type: 'jsonp',
             extraParams: {
-                apikey: '8a341f85c657435989e75c9a83294762'
+                apiKey: '8a341f85c657435989e75c9a83294762'
             },
             limitParam: '',
             noCache: false,

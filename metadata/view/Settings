@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen8417",
     "type": "formpanel",
     "reference": {
         "name": "items",
@@ -7,16 +6,14 @@
     },
     "codeClass": null,
     "userConfig": {
-        "id": "settingsForm",
         "designer|userClassName": "Settings",
-        "designer|userAlias": "settings"
+        "designer|userAlias": "settings",
+        "id": "settingsForm"
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen8417",
     "designerId": "8432ef22-2b4a-4acf-98ac-3b69054cafa3",
-    "$viewOrder": 1,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen61713",
             "type": "fieldset",
             "reference": {
                 "name": "items",
@@ -24,13 +21,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "title": null,
-                "designer|userClassName": "MyFieldSet"
+                "designer|userClassName": "MyFieldSet",
+                "title": null
             },
-            "customConfigs": [],
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen61722",
                     "type": "selectfield",
                     "reference": {
                         "name": "items",
@@ -38,17 +33,15 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "MySelectField",
                         "id": "selectState",
                         "label": "State",
                         "displayField": "state",
                         "store": "States",
-                        "valueField": "abbr",
-                        "designer|userClassName": "MySelectField"
-                    },
-                    "customConfigs": []
+                        "valueField": "abbr"
+                    }
                 },
                 {
-                    "id": "ExtBox1-ext-gen61729",
                     "type": "spinnerfield",
                     "reference": {
                         "name": "items",
@@ -56,19 +49,17 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "MySpinnerField",
                         "id": "districtSpinner",
                         "label": "District",
                         "maxValue": 0,
                         "minValue": 0,
-                        "increment": 1,
-                        "designer|userClassName": "MySpinnerField"
-                    },
-                    "customConfigs": []
+                        "increment": 1
+                    }
                 }
             ]
         },
         {
-            "id": "ExtBox1-ext-gen63114",
             "type": "button",
             "reference": {
                 "name": "items",
@@ -76,12 +67,11 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyButton3",
                 "id": "lookupBtn",
                 "ui": "confirm",
-                "text": "Lookup",
-                "designer|userClassName": "MyButton3"
-            },
-            "customConfigs": []
+                "text": "Lookup"
+            }
         }
     ]
 }

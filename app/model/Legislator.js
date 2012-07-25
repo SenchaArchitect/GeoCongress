@@ -85,6 +85,7 @@ Ext.define('GeoCon.model.Legislator', {
             {
                 convert: function(v, rec) {
                     return rec.data.title === 'Rep' ? 'Representatives' : 'Senators';
+
                 },
                 name: 'fullTitle',
                 type: 'string'

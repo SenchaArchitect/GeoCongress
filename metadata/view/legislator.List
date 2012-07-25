@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen9468",
     "type": "list",
     "reference": {
         "name": "items",
@@ -7,19 +6,17 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|userClassName": "legislator.List",
+        "designer|userAlias": "legislatorlist",
         "id": "legislatorList",
         "emptyText": "Loading list of Legislators...",
         "store": "Legislators",
-        "grouped": true,
-        "designer|userClassName": "legislator.List",
-        "designer|userAlias": "legislatorlist"
+        "grouped": true
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen9468",
     "designerId": "9f6b7c8b-35c6-4de4-8472-810eb69988eb",
-    "$viewOrder": 6,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen1894",
             "type": "template",
             "reference": {
                 "name": "itemTpl",
@@ -27,16 +24,15 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "itemTpl",
                 "implHandler": [
                     "<div class=\"legislator-list-item\">",
                     "<span class=\"legislator-pic\" style=\"background-image: url(http://www.govtrack.us/data/photos/{govtrack_id}-50px.jpeg);\"></span>",
                     "{lastname}, {firstname} {middlename}",
                     "</div>"
                 ],
-                "designer|displayName": "itemTpl",
-                "designer|userClassName": "itemTpl"
-            },
-            "customConfigs": []
+                "designer|displayName": "itemTpl"
+            }
         }
     ]
 }

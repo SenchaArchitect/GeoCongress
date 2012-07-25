@@ -28,6 +28,7 @@ Ext.define('GeoCon.controller.SplashScreen', {
                 tap: 'onSettingsTap'
             }
         }
+
     },
 
     onStateChange: function(selectfield, newValue, oldValue, options) {
@@ -37,12 +38,14 @@ Ext.define('GeoCon.controller.SplashScreen', {
         if (Ext.getCmp('districtSpinner')) {
             this.updateDistrict();
         }
+
     },
 
     onLookupTap: function(button, e, options) {
         this.currentDistrict = Ext.getCmp('districtSpinner').getValue();
         this.loadLegislators();
         this.onSettingsTap();
+
     },
 
     onSettingsTap: function(button, e, options) {
@@ -57,6 +60,7 @@ Ext.define('GeoCon.controller.SplashScreen', {
         } else {
             splashScreen.setActiveItem(Ext.getCmp('settingsForm'));
         }
+
     },
 
     init: function() {
@@ -69,6 +73,7 @@ Ext.define('GeoCon.controller.SplashScreen', {
             }
         });
         this.location.updateLocation();
+
     },
 
     onLocationUpdate: function() {
@@ -97,6 +102,7 @@ Ext.define('GeoCon.controller.SplashScreen', {
             },
             scope: this
         });
+
     },
 
     onLocationError: function() {
@@ -128,16 +134,19 @@ Ext.define('GeoCon.controller.SplashScreen', {
             },
             scope: this
         });
+
     },
 
     updateSettings: function() {
         Ext.getCmp('selectState').setValue(this.currentState.data.abbr);
         this.updateDistrict();
+
     },
 
     updateDistrict: function() {
         Ext.getCmp('districtSpinner').setMaxValue(this.currentState.data.maxDistrict);
         Ext.getCmp('districtSpinner').setValue(this.currentDistrict || 0);
+
     },
 
     loadLegislators: function() {
@@ -170,6 +179,7 @@ Ext.define('GeoCon.controller.SplashScreen', {
             },
             scope: this
         });
+
     }
 
 });

@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen5294",
     "type": "controller",
     "reference": {
         "name": "items",
@@ -9,12 +8,10 @@
     "userConfig": {
         "designer|userClassName": "SplashScreen"
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen5294",
     "designerId": "a8f0a3e9-df3c-45a3-9e4d-a77f4a5c233a",
-    "$viewOrder": 2,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen18208",
             "type": "controlleraction",
             "reference": {
                 "name": "listeners",
@@ -22,6 +19,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "onStateChange",
                 "fn": "onStateChange",
                 "implHandler": [
                     "if (newValue) {",
@@ -33,13 +31,10 @@
                 ],
                 "name": "change",
                 "designer|targetType": "Ext.field.Select",
-                "designer|controlQuery": "#selectState",
-                "designer|userClassName": "onStateChange"
-            },
-            "customConfigs": []
+                "designer|controlQuery": "#selectState"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen18623",
             "type": "controlleraction",
             "reference": {
                 "name": "listeners",
@@ -47,6 +42,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "onLookupTap",
                 "fn": "onLookupTap",
                 "implHandler": [
                     "this.currentDistrict = Ext.getCmp('districtSpinner').getValue();",
@@ -55,13 +51,10 @@
                 ],
                 "name": "tap",
                 "designer|targetType": "Ext.Button",
-                "designer|controlQuery": "#lookupBtn",
-                "designer|userClassName": "onLookupTap"
-            },
-            "customConfigs": []
+                "designer|controlQuery": "#lookupBtn"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen19038",
             "type": "fixedfunction",
             "reference": {
                 "name": "items",
@@ -69,6 +62,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "init",
                 "fn": "init",
                 "implHandler": [
                     "this.location = Ext.create('Ext.util.Geolocation', {",
@@ -80,14 +74,11 @@
                     "    }",
                     "});",
                     "this.location.updateLocation();"
-                ],
-                "designer|userClassName": "init"
+                ]
             },
-            "customConfigs": [],
-            "iconCls": "icon-basic-function"
+            "iconCls": "icon-init-function"
         },
         {
-            "id": "ExtBox1-ext-gen19224",
             "type": "basicfunction",
             "reference": {
                 "name": "items",
@@ -95,6 +86,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "onLocationUpdate",
                 "fn": "onLocationUpdate",
                 "implHandler": [
                     "this.hasLocation = true;",
@@ -122,13 +114,10 @@
                     "    },",
                     "    scope: this",
                     "});"
-                ],
-                "designer|userClassName": "onLocationUpdate"
-            },
-            "customConfigs": []
+                ]
+            }
         },
         {
-            "id": "ExtBox1-ext-gen19492",
             "type": "basicfunction",
             "reference": {
                 "name": "items",
@@ -136,6 +125,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "onLocationError",
                 "fn": "onLocationError",
                 "implHandler": [
                     "this.hasLocation = true;",
@@ -166,13 +156,10 @@
                     "    },",
                     "    scope: this",
                     "});"
-                ],
-                "designer|userClassName": "onLocationError"
-            },
-            "customConfigs": []
+                ]
+            }
         },
         {
-            "id": "ExtBox1-ext-gen20040",
             "type": "basicfunction",
             "reference": {
                 "name": "items",
@@ -180,17 +167,15 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "updateSettings",
                 "fn": "updateSettings",
                 "implHandler": [
                     "Ext.getCmp('selectState').setValue(this.currentState.data.abbr);",
                     "this.updateDistrict();"
-                ],
-                "designer|userClassName": "updateSettings"
-            },
-            "customConfigs": []
+                ]
+            }
         },
         {
-            "id": "ExtBox1-ext-gen20278",
             "type": "controlleraction",
             "reference": {
                 "name": "listeners",
@@ -198,6 +183,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "onSettingsTap",
                 "fn": "onSettingsTap",
                 "implHandler": [
                     "if (!this.hasLocation) {",
@@ -214,13 +200,10 @@
                 ],
                 "name": "tap",
                 "designer|targetType": "Ext.Button",
-                "designer|controlQuery": "#settingsBtn",
-                "designer|userClassName": "onSettingsTap"
-            },
-            "customConfigs": []
+                "designer|controlQuery": "#settingsBtn"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen20888",
             "type": "basicfunction",
             "reference": {
                 "name": "items",
@@ -228,17 +211,15 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "updateDistrict",
                 "fn": "updateDistrict",
                 "implHandler": [
                     "Ext.getCmp('districtSpinner').setMaxValue(this.currentState.data.maxDistrict);",
                     "Ext.getCmp('districtSpinner').setValue(this.currentDistrict || 0);"
-                ],
-                "designer|userClassName": "updateDistrict"
-            },
-            "customConfigs": []
+                ]
+            }
         },
         {
-            "id": "ExtBox1-ext-gen21156",
             "type": "basicfunction",
             "reference": {
                 "name": "items",
@@ -246,6 +227,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "loadLegislators",
                 "fn": "loadLegislators",
                 "implHandler": [
                     "var title = this.currentState.data.abbr + ' District ' + this.currentDistrict,",
@@ -277,10 +259,8 @@
                     "    },",
                     "    scope: this",
                     "});"
-                ],
-                "designer|userClassName": "loadLegislators"
-            },
-            "customConfigs": []
+                ]
+            }
         }
     ]
 }

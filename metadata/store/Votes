@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen7608",
     "type": "jsonpstore",
     "reference": {
         "name": "items",
@@ -7,18 +6,16 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|userClassName": "Votes",
         "groupDir": "DESC",
         "groupField": "voted_at_str",
         "model": "Vote",
-        "storeId": "Votes",
-        "designer|userClassName": "Votes"
+        "storeId": "Votes"
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen7608",
     "designerId": "0590bf4b-b4ee-40d8-8fd5-2faae4ac9ff9",
-    "$viewOrder": 5,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen7615",
             "type": "jsonpproxy",
             "reference": {
                 "name": "proxy",
@@ -26,17 +23,16 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyJsonPProxy5",
+                "extraParams": "{\n    apiKey: '8a341f85c657435989e75c9a83294762'\n}\n",
                 "limitParam": "",
                 "noCache": false,
                 "pageParam": "",
                 "startParam": "",
-                "url": "http://api.realtimecongress.org/api/v1/votes.json",
-                "designer|userClassName": "MyJsonPProxy5"
+                "url": "http://api.realtimecongress.org/api/v1/votes.json"
             },
-            "customConfigs": [],
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen7622",
                     "type": "jsonreader",
                     "reference": {
                         "name": "reader",
@@ -44,29 +40,9 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "rootProperty": "votes",
-                        "designer|userClassName": "MyJsonReader5"
-                    },
-                    "customConfigs": []
-                },
-                {
-                    "id": "ExtBox1-ext-gen1967",
-                    "type": "object",
-                    "reference": {
-                        "name": "extraParams",
-                        "type": "object"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "implHandler": [
-                            "{",
-                            "                apikey: '8a341f85c657435989e75c9a83294762'",
-                            "            }"
-                        ],
-                        "designer|displayName": "extraParams",
-                        "designer|userClassName": "extraParams"
-                    },
-                    "customConfigs": []
+                        "designer|userClassName": "MyJsonReader5",
+                        "rootProperty": "votes"
+                    }
                 }
             ]
         }

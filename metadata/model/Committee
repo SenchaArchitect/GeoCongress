@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen4545",
     "type": "datamodel",
     "reference": {
         "name": "items",
@@ -9,12 +8,10 @@
     "userConfig": {
         "designer|userClassName": "Committee"
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen4545",
     "designerId": "111f6bd6-fb06-41bd-833f-670ee5ff0a94",
-    "$viewOrder": 1,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen44889",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -22,14 +19,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField41",
                 "name": "chamber",
-                "type": "string",
-                "designer|userClassName": "MyField41"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen45000",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -37,14 +32,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField42",
                 "name": "id",
-                "type": "string",
-                "designer|userClassName": "MyField42"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen45114",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -52,14 +45,12 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField43",
                 "name": "name",
-                "type": "string",
-                "designer|userClassName": "MyField43"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         },
         {
-            "id": "ExtBox1-ext-gen45231",
             "type": "datafield",
             "reference": {
                 "name": "fields",
@@ -67,11 +58,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyField44",
                 "name": "subcommittees",
-                "type": "string",
-                "designer|userClassName": "MyField44"
-            },
-            "customConfigs": []
+                "type": "string"
+            }
         }
     ]
 }
