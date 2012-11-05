@@ -26,19 +26,112 @@
                     "<span class=\"legislator-pic\" style=\"background-image: url(http://www.govtrack.us/data/photos/{govtrack_id}-50px.jpeg);\"></span>",
                     "<div class=\"legislator-name\">",
                     "<div class=\"title\">{title} {firstname} {middlename} {lastname} ({party})</div>",
-                    "<div class=\"district\">{state} {district}</div>",
+                    "    <div class=\"district\">{state} {district:this.ordinal}</div>",
                     "</div>",
                     "",
                     "<div class=\"x-list-normal\"><div class=\"x-list-header\">Contact Info</div></div>",
                     "<div class=\"legislator-info\">",
-                    "Phone: {phone}<br />",
-                    "Email: {email}<br />",
-                    "Website: {website}",
-                    "</div>"
+                    "Phone: {[this.notAvailable(values.phone)]}<br />",
+                    "Email: {[this.emailNotAvailable(values.email)]}<br />",
+                    "Website: {[this.siteNotAvailable(values.website)]}",
+                    "</div>",
+                    "<div class=\"x-list-normal\"><div class=\"x-list-header\">Committee Assignments</div></div>"
                 ],
                 "designer|displayName": "tpl"
             },
-            "designerId": "6ccb324b-22c0-4b62-9a70-4bad2a220c0c"
+            "designerId": "6ccb324b-22c0-4b62-9a70-4bad2a220c0c",
+            "cn": [
+                {
+                    "type": "templatefunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "notAvailable",
+                        "fn": "notAvailable",
+                        "designer|params": [
+                            "value"
+                        ],
+                        "implHandler": [
+                            "return value ? value : 'Not Available';"
+                        ]
+                    },
+                    "designerId": "96aa9881-422d-4daa-a338-d7624340227f"
+                },
+                {
+                    "type": "templatefunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "emailNotAvailable",
+                        "fn": "emailNotAvailable",
+                        "designer|params": [
+                            "value"
+                        ],
+                        "implHandler": [
+                            "return value ? '<a href=\"mailto:' + value + '\">' + value + '</a>' : 'Not Available';"
+                        ]
+                    },
+                    "designerId": "a481d8cd-f47d-4515-abc2-e3bb0ea9bbfe"
+                },
+                {
+                    "type": "templatefunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "siteNotAvailable",
+                        "fn": "siteNotAvailable",
+                        "designer|params": [
+                            "value"
+                        ],
+                        "implHandler": [
+                            "return value ? '<a href=\"' + value + '\">' + value + '</a>' : 'Not Available';"
+                        ]
+                    },
+                    "designerId": "900e1955-14af-4428-ae39-e5cd2e280ff7"
+                },
+                {
+                    "type": "templatefunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "ordinal",
+                        "fn": "ordinal",
+                        "designer|params": [
+                            "value"
+                        ],
+                        "implHandler": [
+                            "if (isNaN(parseInt(value, 10))) {",
+                            "    return value;",
+                            "}",
+                            "var endings = ['th', 'st', 'nd', 'rd'],",
+                            "    digit = value % 10;",
+                            "",
+                            "if (value === 0) {",
+                            "    return 'At-large District';",
+                            "}",
+                            "else if (digit > 3 || (value > 10 && value < 20)) {",
+                            "    return value + 'th District';",
+                            "}",
+                            "else {",
+                            "    return value + endings[digit] + ' District';",
+                            "}"
+                        ]
+                    },
+                    "designerId": "cfd1a8f1-e02e-4e8e-b14b-b392f87622b6"
+                }
+            ]
         }
     ]
 }

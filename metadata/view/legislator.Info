@@ -22,6 +22,10 @@
                 "type": "array"
             },
             "codeClass": null,
+            "userConfig": {
+                "height": 195,
+                "layout|flex": null
+            },
             "designerId": "a25efa57-4cb6-43ed-a843-9a99dfc22707",
             "masterInstanceId": "ExtBox1-ext-gen9080"
         },
@@ -32,6 +36,9 @@
                 "type": "array"
             },
             "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1
+            },
             "designerId": "ff0d5aed-9db0-4e0f-bd8d-ef150ef9be22",
             "masterInstanceId": "ExtBox1-ext-gen11279"
         }

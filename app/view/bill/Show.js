@@ -17,6 +17,7 @@ Ext.define('GeoCon.view.bill.Show', {
     extend: 'Ext.Container',
 
     config: {
+        id: 'billSummary',
         scrollable: 'vertical',
         tpl: [
             '{summary}'

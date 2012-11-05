@@ -21,7 +21,7 @@ Ext.define('GeoCon.store.Districts', {
         proxy: {
             type: 'jsonp',
             extraParams: {
-                apiKey: '8a341f85c657435989e75c9a83294762'
+                apikey: '8a341f85c657435989e75c9a83294762'
             },
             url: 'http://services.sunlightlabs.com/api/districts.getDistrictFromLatLong',
             callbackKey: 'jsonp',

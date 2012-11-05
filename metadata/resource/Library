@@ -6,7 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
-        "basePath": "/releases/sencha-touch-2.1.0/",
+        "basePath": null,
         "includeCss": false
     },
     "id": "ExtBox1-ext-gen1879",

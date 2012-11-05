@@ -85,6 +85,23 @@
             },
             "designerId": "3867c6de-1512-4bb5-840a-2ae16389b6a9",
             "masterInstanceId": "ExtBox1-ext-gen8850"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "initialize",
+                "fn": "initialize",
+                "implHandler": [
+                    "this.getTabBar().setMinHeight(null);",
+                    "this.callParent();"
+                ]
+            },
+            "designerId": "4b72f2e8-f964-4a94-8dbe-0c1b22946a5f"
         }
     ]
 }

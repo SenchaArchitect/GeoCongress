@@ -31,8 +31,9 @@ Ext.define('GeoCon.controller.SplashScreen', {
     },
 
     onStateChange: function(selectfield, newValue, oldValue, options) {
-        if (newValue) {
-            this.currentState = newValue;
+        var record = selectfield.getRecord();
+        if (record) {
+            this.currentState = record;
         }
         if (Ext.getCmp('districtSpinner')) {
             this.updateDistrict();

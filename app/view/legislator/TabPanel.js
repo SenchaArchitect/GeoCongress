@@ -52,6 +52,11 @@ Ext.define('GeoCon.view.legislator.TabPanel', {
                 title: 'Votes'
             }
         ]
+    },
+
+    initialize: function() {
+        this.getTabBar().setMinHeight(null);
+        this.callParent();
     }
 
 });

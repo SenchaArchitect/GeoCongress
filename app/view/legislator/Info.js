@@ -30,10 +30,12 @@ Ext.define('GeoCon.view.legislator.Info', {
         scrollable: 'vertical',
         items: [
             {
-                xtype: 'legislatorbio'
+                xtype: 'legislatorbio',
+                height: 195
             },
             {
-                xtype: 'committeelist'
+                xtype: 'committeelist',
+                flex: 1
             }
         ]
     }
