@@ -56,7 +56,7 @@
                         "label": "District",
                         "maxValue": 0,
                         "minValue": 0,
-                        "increment": 1
+                        "stepValue": 1
                     },
                     "designerId": "a4d5084c-5d22-4d5d-a520-81dfdee209f3"
                 }

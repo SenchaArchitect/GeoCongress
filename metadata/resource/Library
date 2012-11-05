@@ -6,7 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
-        "basePath": "http://extjs.cachefly.net/touch/sencha-touch-2.0.0/",
+        "basePath": "/releases/sencha-touch-2.1.0/",
         "includeCss": false
     },
     "id": "ExtBox1-ext-gen1879",

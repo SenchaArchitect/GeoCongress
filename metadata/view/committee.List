@@ -9,9 +9,6 @@
         "designer|userClassName": "committee.List",
         "designer|userAlias": "committeelist",
         "id": "committeeList",
-        "scrollable": [
-            "false"
-        ],
         "store": "Committees"
     },
     "id": "ExtBox1-ext-gen11279",
