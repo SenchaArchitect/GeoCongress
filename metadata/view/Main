@@ -22,7 +22,7 @@
                 "type": "array"
             },
             "codeClass": null,
-            "iconCls": "icon-linkedinstance",
+            "designerId": "50d51a81-9ca2-4bee-85d4-54660767c6df",
             "masterInstanceId": "ExtBox1-ext-gen8616"
         }
     ]

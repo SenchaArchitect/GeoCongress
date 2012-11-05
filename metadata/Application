@@ -33,6 +33,5 @@
         ]
     },
     "id": "ExtBox1-ext-gen4268",
-    "designerId": "application",
-    "iconCls": "icon-application"
+    "designerId": "application"
 }

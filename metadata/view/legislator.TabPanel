@@ -26,6 +26,7 @@
                 "id": "legislatorToolbar",
                 "title": null
             },
+            "designerId": "04ee52ba-66f5-4f5f-8391-7a9869bc3895",
             "cn": [
                 {
                     "type": "button",
@@ -40,7 +41,8 @@
                         "itemId": null,
                         "ui": "back",
                         "text": "Back"
-                    }
+                    },
+                    "designerId": "b0e9231e-1d57-43bb-90c7-f01e197b3764"
                 }
             ]
         },
@@ -54,7 +56,7 @@
             "userConfig": {
                 "title": "Bio"
             },
-            "iconCls": "icon-linkedinstance",
+            "designerId": "400ac2e6-57dc-4e0d-9993-10014ac90633",
             "masterInstanceId": "ExtBox1-ext-gen9269"
         },
         {
@@ -68,7 +70,7 @@
                 "store": null,
                 "title": "Bills"
             },
-            "iconCls": "icon-linkedinstance",
+            "designerId": "4817cf99-4237-42d4-9e67-92641e5c539c",
             "masterInstanceId": "ExtBox1-ext-gen11504"
         },
         {
@@ -81,8 +83,25 @@
             "userConfig": {
                 "title": "Votes"
             },
-            "iconCls": "icon-linkedinstance",
+            "designerId": "3867c6de-1512-4bb5-840a-2ae16389b6a9",
             "masterInstanceId": "ExtBox1-ext-gen8850"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "initialize",
+                "fn": "initialize",
+                "implHandler": [
+                    "this.getTabBar().setMinHeight(null);",
+                    "this.callParent();"
+                ]
+            },
+            "designerId": "4b72f2e8-f964-4a94-8dbe-0c1b22946a5f"
         }
     ]
 }

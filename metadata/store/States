@@ -23,6 +23,7 @@
             "userConfig": {
                 "designer|userClassName": "MyMemoryProxy"
             },
+            "designerId": "6f59cbcd-79ed-4ff5-ba9d-a83aaaaf36b0",
             "cn": [
                 {
                     "type": "jsonreader",
@@ -33,7 +34,8 @@
                     "codeClass": null,
                     "userConfig": {
                         "designer|userClassName": "MyJsonReader4"
-                    }
+                    },
+                    "designerId": "5755cc61-8ca7-4be6-91ee-b673528249d2"
                 }
             ]
         },
@@ -48,7 +50,8 @@
                 "designer|userClassName": "MyField2",
                 "name": "state",
                 "type": "string"
-            }
+            },
+            "designerId": "0b6e2d7c-4bfe-495c-a2b3-585579d0a7d9"
         },
         {
             "type": "datafield",
@@ -61,7 +64,8 @@
                 "designer|userClassName": "MyField3",
                 "name": "abbr",
                 "type": "string"
-            }
+            },
+            "designerId": "7f367534-5882-457f-8a00-c9f79c3dd17a"
         },
         {
             "type": "datafield",
@@ -74,7 +78,8 @@
                 "designer|userClassName": "MyField4",
                 "name": "maxDistrict",
                 "type": "int"
-            }
+            },
+            "designerId": "90465873-ce41-4986-9acf-19ead165ffca"
         }
     ]
 }

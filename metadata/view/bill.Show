@@ -7,6 +7,7 @@
     "codeClass": null,
     "userConfig": {
         "designer|userClassName": "bill.Show",
+        "id": "billSummary",
         "scrollable": "vertical"
     },
     "id": "ExtBox1-ext-gen11739",
@@ -24,6 +25,7 @@
                 "docked": "top",
                 "id": "billSummaryToolbar"
             },
+            "designerId": "401be4ff-6102-49d8-9a62-c5349682cd44",
             "cn": [
                 {
                     "type": "button",
@@ -37,7 +39,8 @@
                         "id": "billSummaryBackButton",
                         "ui": "back",
                         "text": "Back"
-                    }
+                    },
+                    "designerId": "357aca7c-5d1d-4d7d-b3ee-5055ae720985"
                 }
             ]
         },
@@ -54,7 +57,8 @@
                     "{summary}"
                 ],
                 "designer|displayName": "tpl"
-            }
+            },
+            "designerId": "cd19149e-86d0-450a-b4c1-7445912540b7"
         }
     ]
 }
