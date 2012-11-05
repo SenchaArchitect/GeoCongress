@@ -27,7 +27,8 @@
                 "name": "activate",
                 "designer|targetType": "Ext.tab.Panel",
                 "designer|controlQuery": "#legislatorTabPanel"
-            }
+            },
+            "designerId": "3c23fc0e-0ffe-4ec8-9086-fa897bccbbec"
         },
         {
             "type": "controlleraction",
@@ -72,7 +73,8 @@
                 "name": "itemtap",
                 "designer|targetType": "Ext.dataview.List",
                 "designer|controlQuery": "#legislatorList"
-            }
+            },
+            "designerId": "df7235ba-02d7-4178-a380-3e68101b9009"
         },
         {
             "type": "controlleraction",
@@ -97,7 +99,8 @@
                 "name": "activate",
                 "designer|targetType": "Ext.dataview.List",
                 "designer|controlQuery": "#billList"
-            }
+            },
+            "designerId": "f0f58226-90aa-4140-894d-f789e38267f9"
         },
         {
             "type": "controlleraction",
@@ -128,7 +131,8 @@
                 "name": "itemtap",
                 "designer|targetType": "Ext.dataview.List",
                 "designer|controlQuery": "#billList"
-            }
+            },
+            "designerId": "0df08f19-9475-418b-8dfe-875df26f3796"
         },
         {
             "type": "controlleraction",
@@ -158,7 +162,8 @@
                 "name": "activate",
                 "designer|targetType": "Ext.dataview.List",
                 "designer|controlQuery": "#voteList"
-            }
+            },
+            "designerId": "2c7aa853-6cd7-4384-9c4e-b6026a209b22"
         },
         {
             "type": "controlleraction",
@@ -177,7 +182,8 @@
                 "name": "tap",
                 "designer|targetType": "Ext.Button",
                 "designer|controlQuery": "#legislatorBackButton"
-            }
+            },
+            "designerId": "8ee1523c-b215-46b1-a399-87c3f226cbe3"
         },
         {
             "type": "controlleraction",
@@ -196,7 +202,8 @@
                 "name": "tap",
                 "designer|targetType": "Ext.Button",
                 "designer|controlQuery": "#billSummaryBackButton"
-            }
+            },
+            "designerId": "8682cd43-36f6-4f45-88a4-07fab518b81b"
         }
     ]
 }

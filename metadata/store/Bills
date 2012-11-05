@@ -23,13 +23,19 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyJsonPProxy2",
-                "extraParams": "{\n    apiKey: '8a341f85c657435989e75c9a83294762'\n}\n",
+                "extraParams": [
+                    "{",
+                    "    apiKey: '8a341f85c657435989e75c9a83294762'",
+                    "}",
+                    ""
+                ],
                 "limitParam": "",
                 "noCache": false,
                 "pageParam": "",
                 "startParam": "",
                 "url": "http://api.realtimecongress.org/api/v1/bills.json"
             },
+            "designerId": "fbbb2d16-b32e-4729-a16a-c6806d8ec20f",
             "cn": [
                 {
                     "type": "jsonreader",
@@ -41,7 +47,8 @@
                     "userConfig": {
                         "designer|userClassName": "MyJsonReader2",
                         "rootProperty": "bills"
-                    }
+                    },
+                    "designerId": "31eedf5a-b39f-444f-b8f8-93128aab6a83"
                 }
             ]
         }

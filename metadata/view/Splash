@@ -29,6 +29,7 @@
                 "itemId": null,
                 "title": "Finding location..."
             },
+            "designerId": "7561c6ab-fd87-4b1b-ad6f-d7c1e4f23bcc",
             "cn": [
                 {
                     "type": "button",
@@ -44,7 +45,8 @@
                         "iconCls": "settings",
                         "iconMask": true,
                         "text": null
-                    }
+                    },
+                    "designerId": "91dbeb7b-0bcb-43ba-a77a-e4963bd6d218"
                 }
             ]
         },
@@ -55,7 +57,7 @@
                 "type": "array"
             },
             "codeClass": null,
-            "iconCls": "icon-linkedinstance",
+            "designerId": "74b8f12e-d7ba-4572-bdee-599da926a9f1",
             "masterInstanceId": "ExtBox1-ext-gen9468"
         },
         {
@@ -65,7 +67,7 @@
                 "type": "array"
             },
             "codeClass": null,
-            "iconCls": "icon-linkedinstance",
+            "designerId": "e292752e-dbd3-4ef7-89df-aa8b9f0df21b",
             "masterInstanceId": "ExtBox1-ext-gen8417"
         },
         {
@@ -89,7 +91,8 @@
                     "    direction: dir",
                     "});"
                 ]
-            }
+            },
+            "designerId": "1920836e-7abf-4f0f-95f3-368ce8721918"
         }
     ]
 }

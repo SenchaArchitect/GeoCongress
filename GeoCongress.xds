@@ -4,6 +4,7 @@
         "urlPrefix": "http://localhost/GeoCongress/",
         "spacesToIndent": 4,
         "exportPath": "",
+        "sdkPath": "",
         "lineEnding": "LF",
         "genTimestamps": false,
         "cacheBust": false,
@@ -14,10 +15,10 @@
         "saveOnDeploy": false,
         "appName": "MyApp"
     },
-    "xdsVersion": "2.0.0",
-    "xdsBuild": 550,
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 670,
     "schemaVersion": 1,
-    "upgradeVersion": 210000000495,
+    "upgradeVersion": 210000000498,
     "framework": "touch20",
     "topInstanceFileMap": {
         "12706d8b-0c1d-46d6-b70c-5500b2698dfc": {

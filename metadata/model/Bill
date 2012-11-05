@@ -22,7 +22,8 @@
                 "designer|userClassName": "MyField6",
                 "name": "abbreviated",
                 "type": "boolean"
-            }
+            },
+            "designerId": "ef0e8123-995a-4001-b927-e9c2dfccab1b"
         },
         {
             "type": "datafield",
@@ -35,7 +36,8 @@
                 "designer|userClassName": "MyField7",
                 "name": "actions",
                 "type": "object"
-            }
+            },
+            "designerId": "6eb201a8-1863-4d86-8c2a-10adac0562c5"
         },
         {
             "type": "datafield",
@@ -48,7 +50,8 @@
                 "designer|userClassName": "MyField8",
                 "name": "awaiting_signature",
                 "type": "boolean"
-            }
+            },
+            "designerId": "d848ef93-fddf-4ad6-908c-5fc422872459"
         },
         {
             "type": "datafield",
@@ -61,7 +64,8 @@
                 "designer|userClassName": "MyField9",
                 "name": "bill_id",
                 "type": "string"
-            }
+            },
+            "designerId": "09579e60-ac61-45d9-bd62-0bc083e06e35"
         },
         {
             "type": "datafield",
@@ -74,7 +78,8 @@
                 "designer|userClassName": "MyField10",
                 "name": "bill_type",
                 "type": "string"
-            }
+            },
+            "designerId": "25be014b-c9e0-4d31-97c8-dc4a08fbf64c"
         },
         {
             "type": "datafield",
@@ -87,7 +92,8 @@
                 "designer|userClassName": "MyField11",
                 "name": "chamber",
                 "type": "string"
-            }
+            },
+            "designerId": "21836e7b-e60b-4ed5-9af0-b5235d172d22"
         },
         {
             "type": "datafield",
@@ -100,7 +106,8 @@
                 "designer|userClassName": "MyField12",
                 "name": "code",
                 "type": "string"
-            }
+            },
+            "designerId": "e2f3b6f5-62bc-41c1-87e1-4911444a7dc4"
         },
         {
             "type": "datafield",
@@ -113,7 +120,8 @@
                 "designer|userClassName": "MyField13",
                 "name": "committees",
                 "type": "object"
-            }
+            },
+            "designerId": "a5887add-f583-49c7-a3dd-015faf8c25dd"
         },
         {
             "type": "datafield",
@@ -126,7 +134,8 @@
                 "designer|userClassName": "MyField14",
                 "name": "cosponsor_ids",
                 "type": "object"
-            }
+            },
+            "designerId": "c2ee517b-a828-4600-ab18-3f3102b8967f"
         },
         {
             "type": "datafield",
@@ -139,7 +148,8 @@
                 "designer|userClassName": "MyField15",
                 "name": "cosponsors",
                 "type": "object"
-            }
+            },
+            "designerId": "0bc1a610-d629-419f-ab61-8a6a81b3293e"
         },
         {
             "type": "datafield",
@@ -152,7 +162,8 @@
                 "designer|userClassName": "MyField16",
                 "name": "cosponsors_count",
                 "type": "float"
-            }
+            },
+            "designerId": "f8ec6176-8158-451d-9ea1-71695f130501"
         },
         {
             "type": "datafield",
@@ -165,7 +176,8 @@
                 "designer|userClassName": "MyField17",
                 "name": "enacted",
                 "type": "boolean"
-            }
+            },
+            "designerId": "07695318-b68e-4e69-85bf-5519c7773263"
         },
         {
             "type": "datafield",
@@ -178,7 +190,8 @@
                 "designer|userClassName": "MyField18",
                 "name": "introduced_at",
                 "type": "date"
-            }
+            },
+            "designerId": "ca202e15-8e62-421f-96e6-877c456072b7"
         },
         {
             "type": "datafield",
@@ -191,7 +204,8 @@
                 "designer|userClassName": "MyField19",
                 "name": "keywords",
                 "type": "object"
-            }
+            },
+            "designerId": "b2992d27-e90e-4507-a748-2e63f6961375"
         },
         {
             "type": "datafield",
@@ -204,7 +218,8 @@
                 "designer|userClassName": "MyField5",
                 "name": "last_action",
                 "type": "object"
-            }
+            },
+            "designerId": "22164eec-e8b1-401e-9488-37a7395abc0d"
         },
         {
             "type": "datafield",
@@ -217,7 +232,8 @@
                 "designer|userClassName": "MyField20",
                 "name": "last_action_at",
                 "type": "date"
-            }
+            },
+            "designerId": "28ec768b-edc8-4f92-b4c7-ac1257c28a96"
         },
         {
             "type": "datafield",
@@ -230,7 +246,8 @@
                 "designer|userClassName": "MyField21",
                 "name": "last_passage_vote_at",
                 "type": "date"
-            }
+            },
+            "designerId": "1d891951-2398-41db-990d-c28fab9f4a75"
         },
         {
             "type": "datafield",
@@ -243,7 +260,8 @@
                 "designer|userClassName": "MyField22",
                 "name": "last_version",
                 "type": "object"
-            }
+            },
+            "designerId": "ea733b50-d507-4fb1-b1b6-f3f91de7790c"
         },
         {
             "type": "datafield",
@@ -256,7 +274,8 @@
                 "designer|userClassName": "MyField23",
                 "name": "last_version_on",
                 "type": "string"
-            }
+            },
+            "designerId": "df874a7a-3b57-4647-af32-c3683d1d84e8"
         },
         {
             "type": "datafield",
@@ -269,7 +288,8 @@
                 "designer|userClassName": "MyField24",
                 "name": "number",
                 "type": "float"
-            }
+            },
+            "designerId": "9717518c-a297-475b-8759-fc4a07aeb508"
         },
         {
             "type": "datafield",
@@ -282,7 +302,8 @@
                 "designer|userClassName": "MyField25",
                 "name": "official_title",
                 "type": "string"
-            }
+            },
+            "designerId": "61c55d58-b70c-4c19-b9c7-8c542da22a43"
         },
         {
             "type": "datafield",
@@ -295,7 +316,8 @@
                 "designer|userClassName": "MyField26",
                 "name": "passage_votes",
                 "type": "object"
-            }
+            },
+            "designerId": "1ed4a193-7254-4497-b8a1-28f1ad3199aa"
         },
         {
             "type": "datafield",
@@ -308,7 +330,8 @@
                 "designer|userClassName": "MyField27",
                 "name": "passage_votes_count",
                 "type": "float"
-            }
+            },
+            "designerId": "c6470965-fa74-4666-9b1d-7ffcce9b3504"
         },
         {
             "type": "datafield",
@@ -321,7 +344,8 @@
                 "designer|userClassName": "MyField28",
                 "name": "popular_title",
                 "type": "string"
-            }
+            },
+            "designerId": "0f223302-4e92-42fc-ba3d-4ce959ff39cc"
         },
         {
             "type": "datafield",
@@ -334,7 +358,8 @@
                 "designer|userClassName": "MyField29",
                 "name": "related_bills",
                 "type": "object"
-            }
+            },
+            "designerId": "4ba0f39f-83ee-40d5-9c86-74527f87e01e"
         },
         {
             "type": "datafield",
@@ -346,7 +371,8 @@
             "userConfig": {
                 "designer|userClassName": "MyField30",
                 "name": "session"
-            }
+            },
+            "designerId": "92bbfae4-41dc-4bd7-9066-3c0dea5762b1"
         },
         {
             "type": "datafield",
@@ -358,7 +384,8 @@
             "userConfig": {
                 "designer|userClassName": "MyField31",
                 "name": "short_title"
-            }
+            },
+            "designerId": "44288743-b0e4-41d5-87c2-6f23ace07de2"
         },
         {
             "type": "datafield",
@@ -370,7 +397,8 @@
             "userConfig": {
                 "designer|userClassName": "MyField32",
                 "name": "sponsor"
-            }
+            },
+            "designerId": "8373a42a-414e-4e79-882a-07a9af5bac04"
         },
         {
             "type": "datafield",
@@ -382,7 +410,8 @@
             "userConfig": {
                 "designer|userClassName": "MyField33",
                 "name": "sponsor_id"
-            }
+            },
+            "designerId": "4920afe7-d206-4004-9770-2fe5d90204b2"
         },
         {
             "type": "datafield",
@@ -394,7 +423,8 @@
             "userConfig": {
                 "designer|userClassName": "MyField34",
                 "name": "state"
-            }
+            },
+            "designerId": "00c48e33-25bc-463a-ad6f-fde3490ff7e4"
         },
         {
             "type": "datafield",
@@ -406,7 +436,8 @@
             "userConfig": {
                 "designer|userClassName": "MyField35",
                 "name": "summary"
-            }
+            },
+            "designerId": "14cf11f8-1e10-4499-ae89-2d37d3bf2708"
         },
         {
             "type": "datafield",
@@ -418,7 +449,8 @@
             "userConfig": {
                 "designer|userClassName": "MyField36",
                 "name": "titles"
-            }
+            },
+            "designerId": "ff0eaae3-ac8c-474b-a7df-3a0cea803772"
         },
         {
             "type": "datafield",
@@ -430,7 +462,8 @@
             "userConfig": {
                 "designer|userClassName": "MyField37",
                 "name": "version_codes"
-            }
+            },
+            "designerId": "fa1742f4-33b1-4e25-8b65-fceba6f28178"
         },
         {
             "type": "datafield",
@@ -442,7 +475,8 @@
             "userConfig": {
                 "designer|userClassName": "MyField38",
                 "name": "version_info"
-            }
+            },
+            "designerId": "7bb16ad8-dc35-4314-b1e0-02770e0dab5b"
         },
         {
             "type": "datafield",
@@ -455,7 +489,8 @@
                 "designer|userClassName": "MyField39",
                 "name": "versions_count",
                 "type": "float"
-            }
+            },
+            "designerId": "54414840-9221-41cf-8998-bb659169503b"
         },
         {
             "type": "datafield",
@@ -468,7 +503,8 @@
                 "designer|userClassName": "MyField40",
                 "name": "vetoed",
                 "type": "boolean"
-            }
+            },
+            "designerId": "8ba184da-23d2-4acb-81d5-c8f258a86369"
         }
     ]
 }

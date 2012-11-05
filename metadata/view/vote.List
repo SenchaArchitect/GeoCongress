@@ -35,7 +35,8 @@
                     ""
                 ],
                 "designer|displayName": "itemTpl"
-            }
+            },
+            "designerId": "fc240ca5-de0f-4c4c-a7aa-83bbce74ae7f"
         }
     ]
 }

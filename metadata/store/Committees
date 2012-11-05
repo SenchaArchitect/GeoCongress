@@ -23,10 +23,16 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyJsonPProxy1",
-                "extraParams": "{\n    apiKey: '8a341f85c657435989e75c9a83294762'\n}\n",
+                "extraParams": [
+                    "{",
+                    "    apiKey: '8a341f85c657435989e75c9a83294762'",
+                    "}",
+                    ""
+                ],
                 "url": "http://services.sunlightlabs.com/api/committees.allForLegislator",
                 "callbackKey": "jsonp"
             },
+            "designerId": "4321a564-c09e-4aa6-8565-9fc741389890",
             "cn": [
                 {
                     "type": "jsonreader",
@@ -39,7 +45,8 @@
                         "designer|userClassName": "MyJsonReader1",
                         "rootProperty": "response.committees",
                         "record": "committee"
-                    }
+                    },
+                    "designerId": "b23d1b08-b0d5-488b-85d0-648876b3727c"
                 }
             ]
         }

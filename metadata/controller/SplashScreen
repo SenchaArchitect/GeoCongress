@@ -32,7 +32,8 @@
                 "name": "change",
                 "designer|targetType": "Ext.field.Select",
                 "designer|controlQuery": "#selectState"
-            }
+            },
+            "designerId": "5791c174-5929-41bb-b5c0-0b7c5a7231e0"
         },
         {
             "type": "controlleraction",
@@ -52,7 +53,8 @@
                 "name": "tap",
                 "designer|targetType": "Ext.Button",
                 "designer|controlQuery": "#lookupBtn"
-            }
+            },
+            "designerId": "97e27e0a-1464-48b1-910c-a2182d0dd7a8"
         },
         {
             "type": "fixedfunction",
@@ -76,7 +78,7 @@
                     "this.location.updateLocation();"
                 ]
             },
-            "iconCls": "icon-init-function"
+            "designerId": "6b79d50f-1cf2-45b8-a078-1eba9f760df9"
         },
         {
             "type": "basicfunction",
@@ -115,7 +117,8 @@
                     "    scope: this",
                     "});"
                 ]
-            }
+            },
+            "designerId": "953580ff-aa94-4b66-8e57-4e41167802c1"
         },
         {
             "type": "basicfunction",
@@ -157,7 +160,8 @@
                     "    scope: this",
                     "});"
                 ]
-            }
+            },
+            "designerId": "12c35217-654d-43fe-911e-42275f2427f5"
         },
         {
             "type": "basicfunction",
@@ -173,7 +177,8 @@
                     "Ext.getCmp('selectState').setValue(this.currentState.data.abbr);",
                     "this.updateDistrict();"
                 ]
-            }
+            },
+            "designerId": "f3188742-7627-4264-9e07-35ac8e271c0f"
         },
         {
             "type": "controlleraction",
@@ -201,7 +206,8 @@
                 "name": "tap",
                 "designer|targetType": "Ext.Button",
                 "designer|controlQuery": "#settingsBtn"
-            }
+            },
+            "designerId": "0b47a35d-7da1-42eb-be2b-a10347ac67e2"
         },
         {
             "type": "basicfunction",
@@ -217,7 +223,8 @@
                     "Ext.getCmp('districtSpinner').setMaxValue(this.currentState.data.maxDistrict);",
                     "Ext.getCmp('districtSpinner').setValue(this.currentDistrict || 0);"
                 ]
-            }
+            },
+            "designerId": "04b982ab-3769-48f5-9016-6174b52613e5"
         },
         {
             "type": "basicfunction",
@@ -260,7 +267,8 @@
                     "    scope: this",
                     "});"
                 ]
-            }
+            },
+            "designerId": "4978feff-0152-468e-9e61-bd446f893114"
         }
     ]
 }
