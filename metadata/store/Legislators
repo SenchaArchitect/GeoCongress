@@ -23,7 +23,12 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyJsonPProxy3",
-                "extraParams": "{\n    apiKey: '8a341f85c657435989e75c9a83294762'\n}\n",
+                "extraParams": [
+                    "{",
+                    "    apikey: '8a341f85c657435989e75c9a83294762'",
+                    "}",
+                    ""
+                ],
                 "limitParam": "",
                 "noCache": false,
                 "pageParam": "",
@@ -31,6 +36,7 @@
                 "url": "http://services.sunlightlabs.com/api/legislators.getList.json",
                 "callbackKey": "jsonp"
             },
+            "designerId": "7b6e6c8f-fb94-4e46-bfaa-0d84c1f4f35e",
             "cn": [
                 {
                     "type": "jsonreader",
@@ -43,7 +49,8 @@
                         "designer|userClassName": "MyJsonReader3",
                         "rootProperty": "response.legislators",
                         "record": "legislator"
-                    }
+                    },
+                    "designerId": "26c95610-6f74-43f2-a626-e8d6cd07dca0"
                 }
             ]
         }

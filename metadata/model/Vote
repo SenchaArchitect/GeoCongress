@@ -22,7 +22,8 @@
                 "designer|userClassName": "MyField77",
                 "name": "bill_id",
                 "type": "string"
-            }
+            },
+            "designerId": "525fe4d8-d870-4755-8e9d-6f7ea105fee4"
         },
         {
             "type": "datafield",
@@ -35,7 +36,8 @@
                 "designer|userClassName": "MyField77",
                 "name": "chamber",
                 "type": "string"
-            }
+            },
+            "designerId": "808ba851-e461-4862-9c3c-6b27559251ad"
         },
         {
             "type": "datafield",
@@ -48,7 +50,8 @@
                 "designer|userClassName": "MyField77",
                 "name": "how",
                 "type": "string"
-            }
+            },
+            "designerId": "bb20193f-2d2b-419d-a19b-1145744c355a"
         },
         {
             "type": "datafield",
@@ -61,7 +64,8 @@
                 "designer|userClassName": "MyField77",
                 "name": "number",
                 "type": "float"
-            }
+            },
+            "designerId": "f200bfde-df6d-4246-8539-580852ad6fd6"
         },
         {
             "type": "datafield",
@@ -74,7 +78,8 @@
                 "designer|userClassName": "MyField77",
                 "name": "passage_type",
                 "type": "string"
-            }
+            },
+            "designerId": "dbb033c2-15aa-4f07-b783-d23e7c234146"
         },
         {
             "type": "datafield",
@@ -87,7 +92,8 @@
                 "designer|userClassName": "MyField77",
                 "name": "question",
                 "type": "string"
-            }
+            },
+            "designerId": "6c9be07b-57df-4bb9-90fa-97be20889e49"
         },
         {
             "type": "datafield",
@@ -100,7 +106,8 @@
                 "designer|userClassName": "MyField77",
                 "name": "required",
                 "type": "string"
-            }
+            },
+            "designerId": "267686a9-1edd-439d-a319-afc5ddd52b82"
         },
         {
             "type": "datafield",
@@ -113,7 +120,8 @@
                 "designer|userClassName": "MyField77",
                 "name": "result",
                 "type": "string"
-            }
+            },
+            "designerId": "4fce92c8-1101-43be-b3b3-57034e522622"
         },
         {
             "type": "datafield",
@@ -126,7 +134,8 @@
                 "designer|userClassName": "MyField77",
                 "name": "roll_id",
                 "type": "string"
-            }
+            },
+            "designerId": "f32ace21-ed80-48fa-b88d-8efe6e87dd73"
         },
         {
             "type": "datafield",
@@ -139,7 +148,8 @@
                 "designer|userClassName": "MyField77",
                 "name": "roll_type",
                 "type": "string"
-            }
+            },
+            "designerId": "53f839ac-4f1e-495f-95fa-89795593ca7a"
         },
         {
             "type": "datafield",
@@ -152,7 +162,8 @@
                 "designer|userClassName": "MyField77",
                 "name": "session",
                 "type": "float"
-            }
+            },
+            "designerId": "28c6516f-ee86-426b-b254-79a2103b61de"
         },
         {
             "type": "datafield",
@@ -165,7 +176,8 @@
                 "designer|userClassName": "MyField77",
                 "name": "vote_breakdown",
                 "type": "object"
-            }
+            },
+            "designerId": "b67759be-9ed4-449d-9fb0-5e23148542d8"
         },
         {
             "type": "datafield",
@@ -178,7 +190,8 @@
                 "designer|userClassName": "MyField77",
                 "name": "vote_type",
                 "type": "string"
-            }
+            },
+            "designerId": "e73db616-4369-4113-a0ee-f5572bea83c2"
         },
         {
             "type": "datafield",
@@ -191,7 +204,8 @@
                 "designer|userClassName": "MyField77",
                 "name": "voted_at",
                 "type": "date"
-            }
+            },
+            "designerId": "8fa22e70-3914-4dfe-82e9-a2796023d803"
         },
         {
             "type": "datafield",
@@ -205,6 +219,7 @@
                 "name": "voted_at_str",
                 "type": "string"
             },
+            "designerId": "2b0df22d-9ca1-459e-88ee-d8a1533d969c",
             "cn": [
                 {
                     "type": "fixedfunction",
@@ -224,7 +239,7 @@
                             "return Ext.Date.format(rec.data.voted_at, 'F j, Y');"
                         ]
                     },
-                    "iconCls": "icon-basic-function"
+                    "designerId": "0c2d811d-9b5e-4dc0-9c2c-d846914f6434"
                 }
             ]
         },
@@ -239,7 +254,8 @@
                 "designer|userClassName": "MyField92",
                 "name": "voter_ids",
                 "type": "object"
-            }
+            },
+            "designerId": "b020225c-d838-4210-8fe3-8bc25087a250"
         },
         {
             "type": "datafield",
@@ -252,7 +268,8 @@
                 "designer|userClassName": "MyField93",
                 "name": "year",
                 "type": "float"
-            }
+            },
+            "designerId": "dea2b04d-3977-4867-8603-37c81a1b73f2"
         }
     ]
 }

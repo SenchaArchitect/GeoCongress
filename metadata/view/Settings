@@ -24,6 +24,7 @@
                 "designer|userClassName": "MyFieldSet",
                 "title": null
             },
+            "designerId": "d673b953-709b-4669-964c-5b96a137b430",
             "cn": [
                 {
                     "type": "selectfield",
@@ -39,7 +40,8 @@
                         "displayField": "state",
                         "store": "States",
                         "valueField": "abbr"
-                    }
+                    },
+                    "designerId": "8cba7288-a20e-4de4-99c8-32cc74eab603"
                 },
                 {
                     "type": "spinnerfield",
@@ -54,8 +56,9 @@
                         "label": "District",
                         "maxValue": 0,
                         "minValue": 0,
-                        "increment": 1
-                    }
+                        "stepValue": 1
+                    },
+                    "designerId": "a4d5084c-5d22-4d5d-a520-81dfdee209f3"
                 }
             ]
         },
@@ -71,7 +74,8 @@
                 "id": "lookupBtn",
                 "ui": "confirm",
                 "text": "Lookup"
-            }
+            },
+            "designerId": "bf40081d-23c0-4a39-89bf-b5e2e962f336"
         }
     ]
 }

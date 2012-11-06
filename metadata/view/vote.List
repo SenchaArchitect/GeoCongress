@@ -29,13 +29,64 @@
                     "<div class=\"vote\">",
                     "{question}",
                     "<div class=\"results\">",
-                    "{result} {vote_breakdown} {required}",
+                    "{result} {[this.voteBreakdown(values.vote_breakdown)]} {[this.required(values.required)]}",
                     "<div>",
                     "</div>",
                     ""
                 ],
                 "designer|displayName": "itemTpl"
-            }
+            },
+            "designerId": "fc240ca5-de0f-4c4c-a7aa-83bbce74ae7f",
+            "cn": [
+                {
+                    "type": "templatefunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "voteBreakdown",
+                        "fn": "voteBreakdown",
+                        "designer|params": [
+                            "voteBreakdown"
+                        ],
+                        "implHandler": [
+                            "var str = '';",
+                            "",
+                            "if (voteBreakdown.total) {",
+                            "    str = voteBreakdown.total.Yea + '-' + voteBreakdown.total.Nay;",
+                            "",
+                            "    if (voteBreakdown.total['Not Voting']) {",
+                            "        str += \", \" + voteBreakdown.total['Not Voting'] + \" not voting\";",
+                            "    }",
+                            "}",
+                            "",
+                            "return str;"
+                        ]
+                    },
+                    "designerId": "8572003e-fda3-4142-aacc-3b4530265b38"
+                },
+                {
+                    "type": "templatefunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "required",
+                        "fn": "required",
+                        "designer|params": [
+                            "required"
+                        ],
+                        "implHandler": [
+                            "return required ? '(' + required + ' required)' : '';"
+                        ]
+                    },
+                    "designerId": "b4e8bde1-f8f5-44dd-a9a4-a02aa56d04a8"
+                }
+            ]
         }
     ]
 }

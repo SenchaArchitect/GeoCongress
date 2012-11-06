@@ -9,7 +9,6 @@
         "designer|userClassName": "committee.List",
         "designer|userAlias": "committeelist",
         "id": "committeeList",
-        "scrollable": "false",
         "store": "Committees"
     },
     "id": "ExtBox1-ext-gen11279",
@@ -28,7 +27,8 @@
                     "<div class=\"committee\">{name}</div>"
                 ],
                 "designer|displayName": "itemTpl"
-            }
+            },
+            "designerId": "546509d1-8c4a-4eb1-b12e-449c10ccb056"
         }
     ]
 }

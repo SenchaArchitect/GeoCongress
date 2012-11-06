@@ -24,13 +24,19 @@
             "codeClass": null,
             "userConfig": {
                 "designer|userClassName": "MyJsonPProxy5",
-                "extraParams": "{\n    apiKey: '8a341f85c657435989e75c9a83294762'\n}\n",
+                "extraParams": [
+                    "{",
+                    "    apikey: '8a341f85c657435989e75c9a83294762'",
+                    "}",
+                    ""
+                ],
                 "limitParam": "",
                 "noCache": false,
                 "pageParam": "",
                 "startParam": "",
                 "url": "http://api.realtimecongress.org/api/v1/votes.json"
             },
+            "designerId": "35245634-ed3c-4d6c-b7dd-c682e9cc7806",
             "cn": [
                 {
                     "type": "jsonreader",
@@ -42,7 +48,8 @@
                     "userConfig": {
                         "designer|userClassName": "MyJsonReader5",
                         "rootProperty": "votes"
-                    }
+                    },
+                    "designerId": "eb63f2b9-ff63-4cb7-82a0-1f2ca0b5a42c"
                 }
             ]
         }
