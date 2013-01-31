@@ -1,23 +1,22 @@
 {
-    "type": "list",
+    "type": "Ext.dataview.List",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
+        "id": "legislatorList",
         "designer|userClassName": "legislator.List",
         "designer|userAlias": "legislatorlist",
-        "id": "legislatorList",
         "emptyText": "Loading list of Legislators...",
         "store": "Legislators",
         "grouped": true
     },
-    "id": "ExtBox1-ext-gen9468",
     "designerId": "9f6b7c8b-35c6-4de4-8472-810eb69988eb",
     "cn": [
         {
-            "type": "template",
+            "type": "Ext.XTemplate",
             "reference": {
                 "name": "itemTpl",
                 "type": "object"

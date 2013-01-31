@@ -6,16 +6,15 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "Committees",
         "groupField": "chamber",
         "model": "Committee",
-        "storeId": "Committees"
+        "storeId": "Committees",
+        "designer|userClassName": "Committees"
     },
-    "id": "ExtBox1-ext-gen5951",
     "designerId": "b67e2576-b2f5-4ed0-84c6-b6517252bfa9",
     "cn": [
         {
-            "type": "jsonpproxy",
+            "type": "Ext.data.proxy.JsonP",
             "reference": {
                 "name": "proxy",
                 "type": "object"
@@ -35,15 +34,15 @@
             "designerId": "4321a564-c09e-4aa6-8565-9fc741389890",
             "cn": [
                 {
-                    "type": "jsonreader",
+                    "type": "Ext.data.reader.Json",
                     "reference": {
                         "name": "reader",
                         "type": "object"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyJsonReader1",
                         "rootProperty": "response.committees",
+                        "designer|userClassName": "MyJsonReader1",
                         "record": "committee"
                     },
                     "designerId": "b23d1b08-b0d5-488b-85d0-648876b3727c"

@@ -1,45 +1,44 @@
 {
-    "type": "tabpanel",
+    "type": "Ext.tab.Panel",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
+        "id": "legislatorTabPanel",
         "designer|userClassName": "legislator.TabPanel",
-        "designer|userAlias": "legislatortabpanel",
-        "id": "legislatorTabPanel"
+        "designer|userAlias": "legislatortabpanel"
     },
-    "id": "ExtBox1-ext-gen9698",
     "designerId": "7e69ff50-0821-4d5b-953f-fb2ab38d1deb",
     "cn": [
         {
-            "type": "toolbar",
+            "type": "Ext.Toolbar",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyToolbar",
                 "docked": "top",
                 "id": "legislatorToolbar",
+                "designer|userClassName": "MyToolbar",
                 "title": null
             },
             "designerId": "04ee52ba-66f5-4f5f-8391-7a9869bc3895",
             "cn": [
                 {
-                    "type": "button",
+                    "type": "Ext.Button",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyButton2",
                         "id": "legislatorBackButton",
                         "itemId": null,
                         "ui": "back",
+                        "designer|userClassName": "MyButton2",
                         "text": "Back"
                     },
                     "designerId": "b0e9231e-1d57-43bb-90c7-f01e197b3764"
@@ -57,7 +56,7 @@
                 "title": "Bio"
             },
             "designerId": "400ac2e6-57dc-4e0d-9993-10014ac90633",
-            "masterInstanceId": "ExtBox1-ext-gen9269"
+            "masterInstanceId": "1df0b8ea-7af7-4344-937e-23fd2684f7d4"
         },
         {
             "type": "linkedinstance",
@@ -71,7 +70,7 @@
                 "title": "Bills"
             },
             "designerId": "4817cf99-4237-42d4-9e67-92641e5c539c",
-            "masterInstanceId": "ExtBox1-ext-gen11504"
+            "masterInstanceId": "e1c7303d-008e-4f26-9ff2-b6347059cbbc"
         },
         {
             "type": "linkedinstance",
@@ -84,7 +83,7 @@
                 "title": "Votes"
             },
             "designerId": "3867c6de-1512-4bb5-840a-2ae16389b6a9",
-            "masterInstanceId": "ExtBox1-ext-gen8850"
+            "masterInstanceId": "89c3dc04-40b8-42c4-94ce-a6b375452470"
         },
         {
             "type": "basicfunction",

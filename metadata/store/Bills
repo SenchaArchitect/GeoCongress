@@ -6,16 +6,15 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "Bills",
         "groupField": "state",
         "model": "Bill",
-        "storeId": "Bills"
+        "storeId": "Bills",
+        "designer|userClassName": "Bills"
     },
-    "id": "ExtBox1-ext-gen6317",
     "designerId": "aee2cebc-140f-445a-8c2b-c9a226a2e62a",
     "cn": [
         {
-            "type": "jsonpproxy",
+            "type": "Ext.data.proxy.JsonP",
             "reference": {
                 "name": "proxy",
                 "type": "object"
@@ -38,15 +37,15 @@
             "designerId": "fbbb2d16-b32e-4729-a16a-c6806d8ec20f",
             "cn": [
                 {
-                    "type": "jsonreader",
+                    "type": "Ext.data.reader.Json",
                     "reference": {
                         "name": "reader",
                         "type": "object"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyJsonReader2",
-                        "rootProperty": "bills"
+                        "rootProperty": "bills",
+                        "designer|userClassName": "MyJsonReader2"
                     },
                     "designerId": "31eedf5a-b39f-444f-b8f8-93128aab6a83"
                 }

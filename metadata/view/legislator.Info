@@ -1,18 +1,17 @@
 {
-    "type": "container",
+    "type": "Ext.Container",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
+        "id": "legislatorInfo",
         "designer|userClassName": "legislator.Info",
         "designer|userAlias": "legislatorinfo",
-        "id": "legislatorInfo",
         "layout": "vbox",
         "scrollable": "vertical"
     },
-    "id": "ExtBox1-ext-gen9269",
     "designerId": "1df0b8ea-7af7-4344-937e-23fd2684f7d4",
     "cn": [
         {
@@ -27,7 +26,7 @@
                 "layout|flex": null
             },
             "designerId": "a25efa57-4cb6-43ed-a843-9a99dfc22707",
-            "masterInstanceId": "ExtBox1-ext-gen9080"
+            "masterInstanceId": "a6903e7e-8591-47ce-86e3-fb84fc159f71"
         },
         {
             "type": "linkedinstance",
@@ -40,7 +39,7 @@
                 "layout|flex": 1
             },
             "designerId": "ff0d5aed-9db0-4e0f-bd8d-ef150ef9be22",
-            "masterInstanceId": "ExtBox1-ext-gen11279"
+            "masterInstanceId": "e020b7c4-7fa0-4cad-94ae-db3d25607568"
         }
     ]
 }

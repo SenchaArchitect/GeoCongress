@@ -1,23 +1,22 @@
 {
-    "type": "list",
+    "type": "Ext.dataview.List",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
+        "id": "voteList",
         "designer|userClassName": "vote.List",
         "designer|userAlias": "votelist",
-        "id": "voteList",
-        "store": "Votes",
         "disableSelection": true,
+        "store": "Votes",
         "grouped": true
     },
-    "id": "ExtBox1-ext-gen8850",
     "designerId": "89c3dc04-40b8-42c4-94ce-a6b375452470",
     "cn": [
         {
-            "type": "template",
+            "type": "Ext.XTemplate",
             "reference": {
                 "name": "itemTpl",
                 "type": "object"
