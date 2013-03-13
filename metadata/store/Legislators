@@ -6,16 +6,15 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "Legislators",
         "groupField": "fullTitle",
         "model": "Legislator",
-        "storeId": "Legislators"
+        "storeId": "Legislators",
+        "designer|userClassName": "Legislators"
     },
-    "id": "ExtBox1-ext-gen6683",
     "designerId": "8ea65e8e-858e-4f67-913c-f25b9c30487a",
     "cn": [
         {
-            "type": "jsonpproxy",
+            "type": "Ext.data.proxy.JsonP",
             "reference": {
                 "name": "proxy",
                 "type": "object"
@@ -39,15 +38,15 @@
             "designerId": "7b6e6c8f-fb94-4e46-bfaa-0d84c1f4f35e",
             "cn": [
                 {
-                    "type": "jsonreader",
+                    "type": "Ext.data.reader.Json",
                     "reference": {
                         "name": "reader",
                         "type": "object"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyJsonReader3",
                         "rootProperty": "response.legislators",
+                        "designer|userClassName": "MyJsonReader3",
                         "record": "legislator"
                     },
                     "designerId": "26c95610-6f74-43f2-a626-e8d6cd07dca0"

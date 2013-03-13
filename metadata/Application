@@ -1,5 +1,5 @@
 {
-    "type": "application",
+    "type": "Ext.app.Application",
     "reference": {
         "name": "items",
         "type": "array"
@@ -25,13 +25,12 @@
             "legislator.TabPanel",
             "bill.Show"
         ],
-        "name": "GeoCon",
         "controllers": [
             "Committee",
             "Legislator",
             "SplashScreen"
-        ]
+        ],
+        "name": "GeoCon"
     },
-    "id": "ExtBox1-ext-gen4268",
     "designerId": "application"
 }

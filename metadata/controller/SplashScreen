@@ -1,5 +1,5 @@
 {
-    "type": "controller",
+    "type": "Ext.app.Controller",
     "reference": {
         "name": "items",
         "type": "array"
@@ -8,7 +8,6 @@
     "userConfig": {
         "designer|userClassName": "SplashScreen"
     },
-    "id": "ExtBox1-ext-gen5294",
     "designerId": "a8f0a3e9-df3c-45a3-9e4d-a77f4a5c233a",
     "cn": [
         {

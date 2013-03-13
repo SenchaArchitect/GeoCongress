@@ -1,5 +1,5 @@
 {
-    "type": "datamodel",
+    "type": "Ext.data.Model",
     "reference": {
         "name": "items",
         "type": "array"
@@ -8,62 +8,61 @@
     "userConfig": {
         "designer|userClassName": "Committee"
     },
-    "id": "ExtBox1-ext-gen4545",
     "designerId": "111f6bd6-fb06-41bd-833f-670ee5ff0a94",
     "cn": [
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField41",
                 "name": "chamber",
-                "type": "string"
+                "type": "string",
+                "designer|userClassName": "MyField41"
             },
             "designerId": "cc7249bb-c28e-46f7-9519-9991ea6effc0"
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField42",
                 "name": "id",
-                "type": "string"
+                "type": "string",
+                "designer|userClassName": "MyField42"
             },
             "designerId": "44163b54-ffc8-4a91-b1af-8f00a6901720"
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField43",
                 "name": "name",
-                "type": "string"
+                "type": "string",
+                "designer|userClassName": "MyField43"
             },
             "designerId": "56450ccf-e2a4-4d5e-a16e-62f9ae8ae883"
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField44",
                 "name": "subcommittees",
-                "type": "string"
+                "type": "string",
+                "designer|userClassName": "MyField44"
             },
             "designerId": "6d674b78-acbb-4c4f-b5e1-466e0e05910f"
         }
