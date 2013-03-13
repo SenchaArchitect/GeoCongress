@@ -1,20 +1,19 @@
 {
-    "type": "container",
+    "type": "Ext.Container",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
+        "id": "legislatorBio",
         "designer|userClassName": "legislator.Bio",
-        "designer|userAlias": "legislatorbio",
-        "id": "legislatorBio"
+        "designer|userAlias": "legislatorbio"
     },
-    "id": "ExtBox1-ext-gen9080",
     "designerId": "a6903e7e-8591-47ce-86e3-fb84fc159f71",
     "cn": [
         {
-            "type": "template",
+            "type": "Ext.XTemplate",
             "reference": {
                 "name": "tpl",
                 "type": "object"

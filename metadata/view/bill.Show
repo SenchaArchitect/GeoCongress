@@ -1,43 +1,42 @@
 {
-    "type": "container",
+    "type": "Ext.Container",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "bill.Show",
         "id": "billSummary",
+        "designer|userClassName": "bill.Show",
         "scrollable": "vertical"
     },
-    "id": "ExtBox1-ext-gen11739",
     "designerId": "d60d5080-fb6a-4be8-b238-fe01248ff4ae",
     "cn": [
         {
-            "type": "toolbar",
+            "type": "Ext.Toolbar",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyToolbar1",
                 "docked": "top",
-                "id": "billSummaryToolbar"
+                "id": "billSummaryToolbar",
+                "designer|userClassName": "MyToolbar1"
             },
             "designerId": "401be4ff-6102-49d8-9a62-c5349682cd44",
             "cn": [
                 {
-                    "type": "button",
+                    "type": "Ext.Button",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyButton",
                         "id": "billSummaryBackButton",
                         "ui": "back",
+                        "designer|userClassName": "MyButton",
                         "text": "Back"
                     },
                     "designerId": "357aca7c-5d1d-4d7d-b3ee-5055ae720985"
@@ -45,7 +44,7 @@
             ]
         },
         {
-            "type": "template",
+            "type": "Ext.XTemplate",
             "reference": {
                 "name": "tpl",
                 "type": "object"

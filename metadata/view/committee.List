@@ -1,21 +1,20 @@
 {
-    "type": "list",
+    "type": "Ext.dataview.List",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
+        "id": "committeeList",
         "designer|userClassName": "committee.List",
         "designer|userAlias": "committeelist",
-        "id": "committeeList",
         "store": "Committees"
     },
-    "id": "ExtBox1-ext-gen11279",
     "designerId": "e020b7c4-7fa0-4cad-94ae-db3d25607568",
     "cn": [
         {
-            "type": "template",
+            "type": "Ext.XTemplate",
             "reference": {
                 "name": "itemTpl",
                 "type": "object"

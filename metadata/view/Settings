@@ -1,20 +1,19 @@
 {
-    "type": "formpanel",
+    "type": "Ext.form.Panel",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
+        "id": "settingsForm",
         "designer|userClassName": "Settings",
-        "designer|userAlias": "settings",
-        "id": "settingsForm"
+        "designer|userAlias": "settings"
     },
-    "id": "ExtBox1-ext-gen8417",
     "designerId": "8432ef22-2b4a-4acf-98ac-3b69054cafa3",
     "cn": [
         {
-            "type": "fieldset",
+            "type": "Ext.form.FieldSet",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -27,15 +26,15 @@
             "designerId": "d673b953-709b-4669-964c-5b96a137b430",
             "cn": [
                 {
-                    "type": "selectfield",
+                    "type": "Ext.field.Select",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MySelectField",
                         "id": "selectState",
+                        "designer|userClassName": "MySelectField",
                         "label": "State",
                         "displayField": "state",
                         "store": "States",
@@ -44,15 +43,15 @@
                     "designerId": "8cba7288-a20e-4de4-99c8-32cc74eab603"
                 },
                 {
-                    "type": "spinnerfield",
+                    "type": "Ext.field.Spinner",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MySpinnerField",
                         "id": "districtSpinner",
+                        "designer|userClassName": "MySpinnerField",
                         "label": "District",
                         "maxValue": 0,
                         "minValue": 0,
@@ -63,16 +62,16 @@
             ]
         },
         {
-            "type": "button",
+            "type": "Ext.Button",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyButton3",
                 "id": "lookupBtn",
                 "ui": "confirm",
+                "designer|userClassName": "MyButton3",
                 "text": "Lookup"
             },
             "designerId": "bf40081d-23c0-4a39-89bf-b5e2e962f336"
