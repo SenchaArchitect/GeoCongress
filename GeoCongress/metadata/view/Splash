@@ -6,7 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
-        "container|animation": "flip",
+        "container|animation": "fade",
         "id": "splashScreen",
         "designer|userClassName": "Splash",
         "designer|userAlias": "splash",

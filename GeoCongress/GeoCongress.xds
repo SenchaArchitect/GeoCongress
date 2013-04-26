@@ -15,10 +15,10 @@
         "saveOnDeploy": false,
         "appName": "MyApp"
     },
-    "xdsVersion": "2.2.0",
-    "xdsBuild": 894,
+    "xdsVersion": "2.2.1",
+    "xdsBuild": 951,
     "schemaVersion": 1,
-    "upgradeVersion": 210000000499,
+    "upgradeVersion": 210000000500,
     "framework": "touch21",
     "topInstanceFileMap": {
         "12706d8b-0c1d-46d6-b70c-5500b2698dfc": {
