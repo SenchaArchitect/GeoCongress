@@ -6,8 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "id": "billSummary",
         "designer|userClassName": "bill.Show",
+        "id": "billSummary",
         "scrollable": "vertical"
     },
     "designerId": "d60d5080-fb6a-4be8-b238-fe01248ff4ae",
@@ -21,8 +21,7 @@
             "codeClass": null,
             "userConfig": {
                 "docked": "top",
-                "id": "billSummaryToolbar",
-                "designer|userClassName": "MyToolbar1"
+                "id": "billSummaryToolbar"
             },
             "designerId": "401be4ff-6102-49d8-9a62-c5349682cd44",
             "cn": [
@@ -35,9 +34,8 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "billSummaryBackButton",
-                        "ui": "back",
-                        "designer|userClassName": "MyButton",
-                        "text": "Back"
+                        "text": "Back",
+                        "ui": "back"
                     },
                     "designerId": "357aca7c-5d1d-4d7d-b3ee-5055ae720985"
                 }
@@ -51,11 +49,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "tpl",
+                "designer|displayName": "tpl",
                 "implHandler": [
                     "{summary}"
-                ],
-                "designer|displayName": "tpl"
+                ]
             },
             "designerId": "cd19149e-86d0-450a-b4c1-7445912540b7"
         }

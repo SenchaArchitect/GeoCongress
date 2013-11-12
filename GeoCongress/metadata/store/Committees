@@ -6,10 +6,10 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|userClassName": "Committees",
         "groupField": "chamber",
         "model": "Committee",
-        "storeId": "Committees",
-        "designer|userClassName": "Committees"
+        "storeId": "Committees"
     },
     "designerId": "b67e2576-b2f5-4ed0-84c6-b6517252bfa9",
     "cn": [
@@ -21,15 +21,14 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyJsonPProxy1",
+                "callbackKey": "jsonp",
                 "extraParams": [
                     "{",
                     "    apikey: '8a341f85c657435989e75c9a83294762'",
                     "}",
                     ""
                 ],
-                "url": "http://services.sunlightlabs.com/api/committees.allForLegislator",
-                "callbackKey": "jsonp"
+                "url": "http://services.sunlightlabs.com/api/committees.allForLegislator"
             },
             "designerId": "4321a564-c09e-4aa6-8565-9fc741389890",
             "cn": [
@@ -41,9 +40,8 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "rootProperty": "response.committees",
-                        "designer|userClassName": "MyJsonReader1",
-                        "record": "committee"
+                        "record": "committee",
+                        "rootProperty": "response.committees"
                     },
                     "designerId": "b23d1b08-b0d5-488b-85d0-648876b3727c"
                 }

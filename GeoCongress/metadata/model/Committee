@@ -19,8 +19,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "chamber",
-                "type": "string",
-                "designer|userClassName": "MyField41"
+                "type": "string"
             },
             "designerId": "cc7249bb-c28e-46f7-9519-9991ea6effc0"
         },
@@ -33,8 +32,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "id",
-                "type": "string",
-                "designer|userClassName": "MyField42"
+                "type": "string"
             },
             "designerId": "44163b54-ffc8-4a91-b1af-8f00a6901720"
         },
@@ -47,8 +45,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "name",
-                "type": "string",
-                "designer|userClassName": "MyField43"
+                "type": "string"
             },
             "designerId": "56450ccf-e2a4-4d5e-a16e-62f9ae8ae883"
         },
@@ -61,8 +58,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "subcommittees",
-                "type": "string",
-                "designer|userClassName": "MyField44"
+                "type": "string"
             },
             "designerId": "6d674b78-acbb-4c4f-b5e1-466e0e05910f"
         }

@@ -6,10 +6,10 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|userClassName": "Bills",
         "groupField": "state",
         "model": "Bill",
-        "storeId": "Bills",
-        "designer|userClassName": "Bills"
+        "storeId": "Bills"
     },
     "designerId": "aee2cebc-140f-445a-8c2b-c9a226a2e62a",
     "cn": [
@@ -21,7 +21,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyJsonPProxy2",
                 "extraParams": [
                     "{",
                     "    apikey: '8a341f85c657435989e75c9a83294762'",
@@ -44,8 +43,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "rootProperty": "bills",
-                        "designer|userClassName": "MyJsonReader2"
+                        "rootProperty": "bills"
                     },
                     "designerId": "31eedf5a-b39f-444f-b8f8-93128aab6a83"
                 }
