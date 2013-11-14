@@ -18,7 +18,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onCommitteeTap",
+                "designer|controlQuery": "#committeeList",
+                "designer|targetType": "Ext.dataview.List",
                 "fn": "onCommitteeTap",
                 "implHandler": [
                     "Ext.Msg.confirm(\"Confirmation\", \"This link will open in a new window. Are you sure?\", function(result) {",
@@ -27,9 +28,7 @@
                     "    }",
                     "});"
                 ],
-                "name": "itemtap",
-                "designer|targetType": "Ext.dataview.List",
-                "designer|controlQuery": "#committeeList"
+                "name": "itemtap"
             },
             "designerId": "b9a5d9d5-5440-41c2-bd18-96d7f55c7344"
         }

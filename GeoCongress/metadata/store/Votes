@@ -6,11 +6,11 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|userClassName": "Votes",
         "groupDir": "DESC",
         "groupField": "voted_at_str",
         "model": "Vote",
-        "storeId": "Votes",
-        "designer|userClassName": "Votes"
+        "storeId": "Votes"
     },
     "designerId": "0590bf4b-b4ee-40d8-8fd5-2faae4ac9ff9",
     "cn": [
@@ -22,7 +22,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyJsonPProxy5",
                 "extraParams": [
                     "{",
                     "    apikey: '8a341f85c657435989e75c9a83294762'",
@@ -45,8 +44,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "rootProperty": "votes",
-                        "designer|userClassName": "MyJsonReader5"
+                        "rootProperty": "votes"
                     },
                     "designerId": "eb63f2b9-ff63-4cb7-82a0-1f2ca0b5a42c"
                 }

@@ -6,12 +6,18 @@
     },
     "codeClass": null,
     "userConfig": {
+        "controllers": [
+            "Committee",
+            "Legislator",
+            "SplashScreen"
+        ],
         "models": [
             "Bill",
             "Committee",
             "Legislator",
             "Vote"
         ],
+        "name": "GeoCon",
         "stores": [
             "Districts",
             "Committees",
@@ -24,13 +30,7 @@
             "Main",
             "legislator.TabPanel",
             "bill.Show"
-        ],
-        "controllers": [
-            "Committee",
-            "Legislator",
-            "SplashScreen"
-        ],
-        "name": "GeoCon"
+        ]
     },
     "designerId": "application"
 }

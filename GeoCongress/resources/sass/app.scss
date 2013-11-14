@@ -1,3 +1,14 @@
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+// Custom code goes here..
+
+// Examples of using the icon mixin:
+// @include icon('user');
+
 
 // GeoCongress Sass file
 
@@ -10,28 +21,12 @@ $list-header-color: #777;
 
 $include-default-icons: false;
 
-@import 'sencha-touch/default/all';
-
-@include sencha-panel;
-@include sencha-buttons;
-@include sencha-sheet;
-@include sencha-picker;
-// @include sencha-tabs; // We create a custom tab style below
-@include sencha-toolbar;
-// @include sencha-carousel;
-// @include sencha-indexbar;
-@include sencha-list;
-@include sencha-layout;
-@include sencha-form;
-@include sencha-msgbox;
-@include sencha-loading-spinner;
-
-@include pictos-iconmask('settings');
-@include pictos-iconmask('refresh');
+//@include pictos-iconmask('settings');
+//@include pictos-iconmask('refresh');
 
 
 #splashScreen {
-  background: #092542 inline_image("bg.png") center top no-repeat;
+  background: #092542   url('../../resources/images/bg.png') center top no-repeat;
 }
 #splashToolbar {
   margin-top: 115px;

@@ -6,9 +6,9 @@
     },
     "codeClass": null,
     "userConfig": {
-        "id": "legislatorInfo",
-        "designer|userClassName": "legislator.Info",
         "designer|userAlias": "legislatorinfo",
+        "designer|userClassName": "legislator.Info",
+        "id": "legislatorInfo",
         "layout": "vbox",
         "scrollable": "vertical"
     },

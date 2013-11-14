@@ -1,7 +1,12 @@
 {
     "name": "GeoCongress",
     "settings": {
-        "urlPrefix": "http://localhost/sandbox/GeoCongress/",
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.1.45",
+            "frameworkVersion": "2.3.0.328"
+        },
+        "urlPrefix": "http://localhost/GeoCongress/geocongress/build/testing/GeoCon",
         "spacesToIndent": 4,
         "exportPath": "",
         "sdkPath": "",
@@ -13,219 +18,30 @@
         "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
         "instantiateStore": true,
         "saveOnDeploy": false,
-        "appName": "MyApp"
-    },
-    "xdsVersion": "2.2.1",
-    "xdsBuild": 951,
-    "schemaVersion": 1,
-    "upgradeVersion": 210000000500,
-    "framework": "touch21",
-    "topInstanceFileMap": {
-        "12706d8b-0c1d-46d6-b70c-5500b2698dfc": {
-            "paths": [
-                "metadata/view/Main",
-                "app/view/override/Main.js",
-                "app/view/Main.js"
-            ],
-            "className": "Main"
+        "appName": "MyApp",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
         },
-        "8432ef22-2b4a-4acf-98ac-3b69054cafa3": {
-            "paths": [
-                "metadata/view/Settings",
-                "app/view/override/Settings.js",
-                "app/view/Settings.js"
-            ],
-            "className": "Settings"
-        },
-        "afeaade4-863e-49b7-950d-e78b46bf3c47": {
-            "paths": [
-                "metadata/view/Splash",
-                "app/view/override/Splash.js",
-                "app/view/Splash.js"
-            ],
-            "className": "Splash"
-        },
-        "89c3dc04-40b8-42c4-94ce-a6b375452470": {
-            "paths": [
-                "metadata/view/vote.List",
-                "app/view/override/vote/List.js",
-                "app/view/vote/List.js"
-            ],
-            "className": "vote.List"
-        },
-        "a6903e7e-8591-47ce-86e3-fb84fc159f71": {
-            "paths": [
-                "metadata/view/legislator.Bio",
-                "app/view/override/legislator/Bio.js",
-                "app/view/legislator/Bio.js"
-            ],
-            "className": "legislator.Bio"
-        },
-        "1df0b8ea-7af7-4344-937e-23fd2684f7d4": {
-            "paths": [
-                "metadata/view/legislator.Info",
-                "app/view/override/legislator/Info.js",
-                "app/view/legislator/Info.js"
-            ],
-            "className": "legislator.Info"
-        },
-        "9f6b7c8b-35c6-4de4-8472-810eb69988eb": {
-            "paths": [
-                "metadata/view/legislator.List",
-                "app/view/override/legislator/List.js",
-                "app/view/legislator/List.js"
-            ],
-            "className": "legislator.List"
-        },
-        "7e69ff50-0821-4d5b-953f-fb2ab38d1deb": {
-            "paths": [
-                "metadata/view/legislator.TabPanel",
-                "app/view/override/legislator/TabPanel.js",
-                "app/view/legislator/TabPanel.js"
-            ],
-            "className": "legislator.TabPanel"
-        },
-        "e020b7c4-7fa0-4cad-94ae-db3d25607568": {
-            "paths": [
-                "metadata/view/committee.List",
-                "app/view/override/committee/List.js",
-                "app/view/committee/List.js"
-            ],
-            "className": "committee.List"
-        },
-        "e1c7303d-008e-4f26-9ff2-b6347059cbbc": {
-            "paths": [
-                "metadata/view/bill.List",
-                "app/view/override/bill/List.js",
-                "app/view/bill/List.js"
-            ],
-            "className": "bill.List"
-        },
-        "d60d5080-fb6a-4be8-b238-fe01248ff4ae": {
-            "paths": [
-                "metadata/view/bill.Show",
-                "app/view/override/bill/Show.js",
-                "app/view/bill/Show.js"
-            ],
-            "className": "bill.Show"
-        },
-        "12a66509-0910-4b3b-abf9-d6e5b306d370": {
-            "paths": [
-                "metadata/store/Districts",
-                "app/store/override/Districts.js",
-                "app/store/Districts.js"
-            ],
-            "className": "Districts"
-        },
-        "b67e2576-b2f5-4ed0-84c6-b6517252bfa9": {
-            "paths": [
-                "metadata/store/Committees",
-                "app/store/override/Committees.js",
-                "app/store/Committees.js"
-            ],
-            "className": "Committees"
-        },
-        "aee2cebc-140f-445a-8c2b-c9a226a2e62a": {
-            "paths": [
-                "metadata/store/Bills",
-                "app/store/override/Bills.js",
-                "app/store/Bills.js"
-            ],
-            "className": "Bills"
-        },
-        "8ea65e8e-858e-4f67-913c-f25b9c30487a": {
-            "paths": [
-                "metadata/store/Legislators",
-                "app/store/override/Legislators.js",
-                "app/store/Legislators.js"
-            ],
-            "className": "Legislators"
-        },
-        "ea8c31be-808e-45a6-a301-ce51530fab33": {
-            "paths": [
-                "metadata/store/States",
-                "app/store/override/States.js",
-                "app/store/States.js"
-            ],
-            "className": "States"
-        },
-        "0590bf4b-b4ee-40d8-8fd5-2faae4ac9ff9": {
-            "paths": [
-                "metadata/store/Votes",
-                "app/store/override/Votes.js",
-                "app/store/Votes.js"
-            ],
-            "className": "Votes"
-        },
-        "6d43f8d0-a798-4142-8199-9a34eea31541": {
-            "paths": [
-                "metadata/controller/Committee",
-                "app/controller/override/Committee.js",
-                "app/controller/Committee.js"
-            ],
-            "className": "Committee"
-        },
-        "7519b28b-d373-4e48-a46f-de8b78af31ae": {
-            "paths": [
-                "metadata/controller/Legislator",
-                "app/controller/override/Legislator.js",
-                "app/controller/Legislator.js"
-            ],
-            "className": "Legislator"
-        },
-        "a8f0a3e9-df3c-45a3-9e4d-a77f4a5c233a": {
-            "paths": [
-                "metadata/controller/SplashScreen",
-                "app/controller/override/SplashScreen.js",
-                "app/controller/SplashScreen.js"
-            ],
-            "className": "SplashScreen"
-        },
-        "f47d8b22-54f9-421d-9a3e-1eab20ec81f5": {
-            "paths": [
-                "metadata/model/Bill",
-                "app/model/override/Bill.js",
-                "app/model/Bill.js"
-            ],
-            "className": "Bill"
-        },
-        "111f6bd6-fb06-41bd-833f-670ee5ff0a94": {
-            "paths": [
-                "metadata/model/Committee",
-                "app/model/override/Committee.js",
-                "app/model/Committee.js"
-            ],
-            "className": "Committee"
-        },
-        "ef7f9787-0338-42d1-b4c6-b53dc98aa434": {
-            "paths": [
-                "metadata/model/Legislator",
-                "app/model/override/Legislator.js",
-                "app/model/Legislator.js"
-            ],
-            "className": "Legislator"
-        },
-        "371ec8fa-90f3-486a-9074-457702f0d73e": {
-            "paths": [
-                "metadata/model/Vote",
-                "app/model/override/Vote.js",
-                "app/model/Vote.js"
-            ],
-            "className": "Vote"
-        },
-        "f0c49f6b-567a-4de2-8b48-a06c93e892a9": {
-            "paths": [
-                "metadata/resource/css"
-            ],
-            "className": "css"
-        },
-        "e236a333-6e0d-4057-93bf-4006b8341ad8": {
-            "paths": [
-                "metadata/resource/Library"
-            ],
-            "className": "Library"
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "customPath": "",
+        "license": "commercial",
+        "lastBuildSelection": {
+            "value": "webBuild",
+            "display": "Build web app"
         }
     },
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 0,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000003,
+    "framework": "touch23",
     "viewOrderMap": {
         "view": [
             "9f6b7c8b-35c6-4de4-8472-810eb69988eb",
