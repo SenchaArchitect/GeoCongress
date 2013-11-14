@@ -6,7 +6,10 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "Committee"
+        "designer|userClassName": "Committee",
+        "requires": [
+            "Ext.MessageBox"
+        ]
     },
     "designerId": "6d43f8d0-a798-4142-8199-9a34eea31541",
     "cn": [

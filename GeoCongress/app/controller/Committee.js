@@ -16,6 +16,10 @@
 Ext.define('GeoCon.controller.Committee', {
     extend: 'Ext.app.Controller',
 
+    requires: [
+        'Ext.MessageBox'
+    ],
+
     config: {
         control: {
             "#committeeList": {
