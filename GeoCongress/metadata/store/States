@@ -61,8 +61,8 @@
             "            { abbr: 'WY', state: 'Wyoming',              maxDistrict: 0 }",
             "        ]"
         ],
-        "designer|userClassName": "States",
-        "storeId": "States"
+        "storeId": "States",
+        "designer|userClassName": "States"
     },
     "designerId": "ea8c31be-808e-45a6-a301-ce51530fab33",
     "cn": [
@@ -73,6 +73,9 @@
                 "type": "object"
             },
             "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyMemoryProxy"
+            },
             "designerId": "6f59cbcd-79ed-4ff5-ba9d-a83aaaaf36b0",
             "cn": [
                 {
@@ -82,6 +85,9 @@
                         "type": "object"
                     },
                     "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyJsonReader4"
+                    },
                     "designerId": "5755cc61-8ca7-4be6-91ee-b673528249d2"
                 }
             ]
@@ -95,7 +101,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "state",
-                "type": "string"
+                "type": "string",
+                "designer|userClassName": "MyField2"
             },
             "designerId": "0b6e2d7c-4bfe-495c-a2b3-585579d0a7d9"
         },
@@ -108,7 +115,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "abbr",
-                "type": "string"
+                "type": "string",
+                "designer|userClassName": "MyField3"
             },
             "designerId": "7f367534-5882-457f-8a00-c9f79c3dd17a"
         },
@@ -121,7 +129,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "maxDistrict",
-                "type": "int"
+                "type": "int",
+                "designer|userClassName": "MyField4"
             },
             "designerId": "90465873-ce41-4986-9acf-19ead165ffca"
         }

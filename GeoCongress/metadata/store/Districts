@@ -6,8 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "Districts",
-        "storeId": "Districts"
+        "storeId": "Districts",
+        "designer|userClassName": "Districts"
     },
     "designerId": "12a66509-0910-4b3b-abf9-d6e5b306d370",
     "cn": [
@@ -19,14 +19,15 @@
             },
             "codeClass": null,
             "userConfig": {
-                "callbackKey": "jsonp",
+                "designer|userClassName": "MyJsonPProxy",
                 "extraParams": [
                     "{",
                     "    apikey: '8a341f85c657435989e75c9a83294762'",
                     "}",
                     ""
                 ],
-                "url": "http://services.sunlightlabs.com/api/districts.getDistrictFromLatLong"
+                "url": "http://services.sunlightlabs.com/api/districts.getDistrictFromLatLong",
+                "callbackKey": "jsonp"
             },
             "designerId": "5a166c30-5965-43bf-beed-779d249001d1",
             "cn": [
@@ -38,8 +39,9 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "record": "district",
-                        "rootProperty": "response.districts"
+                        "rootProperty": "response.districts",
+                        "designer|userClassName": "MyJsonReader",
+                        "record": "district"
                     },
                     "designerId": "9a696983-530d-45f1-ad1a-39886b0cf36b"
                 }
@@ -53,7 +55,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "state"
+                "name": "state",
+                "designer|userClassName": "MyField"
             },
             "designerId": "38809df2-b61b-4966-b7ab-d8a2644bca2d"
         },
@@ -65,7 +68,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "number"
+                "name": "number",
+                "designer|userClassName": "MyField1"
             },
             "designerId": "e209c762-2d1b-408b-a748-223ad2f64ef0"
         }

@@ -6,12 +6,12 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "legislatorlist",
-        "designer|userClassName": "legislator.List",
-        "emptyText": "Loading list of Legislators...",
-        "grouped": true,
         "id": "legislatorList",
-        "store": "Legislators"
+        "designer|userClassName": "legislator.List",
+        "designer|userAlias": "legislatorlist",
+        "emptyText": "Loading list of Legislators...",
+        "store": "Legislators",
+        "grouped": true
     },
     "designerId": "9f6b7c8b-35c6-4de4-8472-810eb69988eb",
     "cn": [
@@ -23,13 +23,14 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|displayName": "itemTpl",
+                "designer|userClassName": "itemTpl",
                 "implHandler": [
                     "<div class=\"legislator-list-item\">",
                     "<span class=\"legislator-pic\" style=\"background-image: url(http://www.govtrack.us/data/photos/{govtrack_id}-50px.jpeg);\"></span>",
                     "{lastname}, {firstname} {middlename}",
                     "</div>"
-                ]
+                ],
+                "designer|displayName": "itemTpl"
             },
             "designerId": "521b94f9-7607-46bb-bcce-1b8d6a42f7f9"
         }

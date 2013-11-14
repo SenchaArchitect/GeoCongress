@@ -6,12 +6,12 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "votelist",
-        "designer|userClassName": "vote.List",
-        "disableSelection": true,
-        "grouped": true,
         "id": "voteList",
-        "store": "Votes"
+        "designer|userClassName": "vote.List",
+        "designer|userAlias": "votelist",
+        "disableSelection": true,
+        "store": "Votes",
+        "grouped": true
     },
     "designerId": "89c3dc04-40b8-42c4-94ce-a6b375452470",
     "cn": [
@@ -23,7 +23,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|displayName": "itemTpl",
+                "designer|userClassName": "itemTpl",
                 "implHandler": [
                     "<div class=\"vote\">",
                     "{question}",
@@ -32,7 +32,8 @@
                     "<div>",
                     "</div>",
                     ""
-                ]
+                ],
+                "designer|displayName": "itemTpl"
             },
             "designerId": "fc240ca5-de0f-4c4c-a7aa-83bbce74ae7f",
             "cn": [
@@ -44,10 +45,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "voteBreakdown",
+                        "fn": "voteBreakdown",
                         "designer|params": [
                             "voteBreakdown"
                         ],
-                        "fn": "voteBreakdown",
                         "implHandler": [
                             "var str = '';",
                             "",
@@ -72,10 +74,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "required",
+                        "fn": "required",
                         "designer|params": [
                             "required"
                         ],
-                        "fn": "required",
                         "implHandler": [
                             "return required ? '(' + required + ' required)' : '';"
                         ]

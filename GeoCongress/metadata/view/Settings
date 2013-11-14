@@ -6,9 +6,9 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "settings",
+        "id": "settingsForm",
         "designer|userClassName": "Settings",
-        "id": "settingsForm"
+        "designer|userAlias": "settings"
     },
     "designerId": "8432ef22-2b4a-4acf-98ac-3b69054cafa3",
     "cn": [
@@ -20,6 +20,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyFieldSet",
                 "title": null
             },
             "designerId": "d673b953-709b-4669-964c-5b96a137b430",
@@ -32,9 +33,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "displayField": "state",
                         "id": "selectState",
+                        "designer|userClassName": "MySelectField",
                         "label": "State",
+                        "displayField": "state",
                         "store": "States",
                         "valueField": "abbr"
                     },
@@ -49,6 +51,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "districtSpinner",
+                        "designer|userClassName": "MySpinnerField",
                         "label": "District",
                         "maxValue": 0,
                         "minValue": 0,
@@ -67,8 +70,9 @@
             "codeClass": null,
             "userConfig": {
                 "id": "lookupBtn",
-                "text": "Lookup",
-                "ui": "confirm"
+                "ui": "confirm",
+                "designer|userClassName": "MyButton3",
+                "text": "Lookup"
             },
             "designerId": "bf40081d-23c0-4a39-89bf-b5e2e962f336"
         }

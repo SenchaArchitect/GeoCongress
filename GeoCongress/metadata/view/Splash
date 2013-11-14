@@ -7,9 +7,9 @@
     "codeClass": null,
     "userConfig": {
         "container|animation": "fade",
-        "designer|userAlias": "splash",
-        "designer|userClassName": "Splash",
         "id": "splashScreen",
+        "designer|userClassName": "Splash",
+        "designer|userAlias": "splash",
         "layout": "card"
     },
     "designerId": "afeaade4-863e-49b7-950d-e78b46bf3c47",
@@ -25,6 +25,7 @@
                 "docked": "top",
                 "id": "splashToolbar",
                 "itemId": null,
+                "designer|userClassName": "MyToolbar2",
                 "title": "Finding location..."
             },
             "designerId": "7561c6ab-fd87-4b1b-ad6f-d7c1e4f23bcc",
@@ -37,10 +38,12 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "iconCls": "settings",
                         "id": "settingsBtn",
-                        "text": null,
-                        "ui": "plain"
+                        "ui": "plain",
+                        "designer|userClassName": "MyButton1",
+                        "iconCls": "settings",
+                        "iconMask": true,
+                        "text": null
                     },
                     "designerId": "91dbeb7b-0bcb-43ba-a77a-e4963bd6d218"
                 }
@@ -74,10 +77,11 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "animateTo",
+                "fn": "animateTo",
                 "designer|params": [
                     "dir"
                 ],
-                "fn": "animateTo",
                 "implHandler": [
                     "Ext.getCmp('viewport').getLayout().setAnimation({",
                     "    duration: 300,",

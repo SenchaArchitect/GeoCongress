@@ -6,10 +6,10 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "Legislators",
         "groupField": "fullTitle",
         "model": "Legislator",
-        "storeId": "Legislators"
+        "storeId": "Legislators",
+        "designer|userClassName": "Legislators"
     },
     "designerId": "8ea65e8e-858e-4f67-913c-f25b9c30487a",
     "cn": [
@@ -21,7 +21,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "callbackKey": "jsonp",
+                "designer|userClassName": "MyJsonPProxy3",
                 "extraParams": [
                     "{",
                     "    apikey: '8a341f85c657435989e75c9a83294762'",
@@ -32,7 +32,8 @@
                 "noCache": false,
                 "pageParam": "",
                 "startParam": "",
-                "url": "http://services.sunlightlabs.com/api/legislators.getList.json"
+                "url": "http://services.sunlightlabs.com/api/legislators.getList.json",
+                "callbackKey": "jsonp"
             },
             "designerId": "7b6e6c8f-fb94-4e46-bfaa-0d84c1f4f35e",
             "cn": [
@@ -44,8 +45,9 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "record": "legislator",
-                        "rootProperty": "response.legislators"
+                        "rootProperty": "response.legislators",
+                        "designer|userClassName": "MyJsonReader3",
+                        "record": "legislator"
                     },
                     "designerId": "26c95610-6f74-43f2-a626-e8d6cd07dca0"
                 }

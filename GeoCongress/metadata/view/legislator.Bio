@@ -6,9 +6,9 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "legislatorbio",
+        "id": "legislatorBio",
         "designer|userClassName": "legislator.Bio",
-        "id": "legislatorBio"
+        "designer|userAlias": "legislatorbio"
     },
     "designerId": "a6903e7e-8591-47ce-86e3-fb84fc159f71",
     "cn": [
@@ -20,7 +20,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|displayName": "tpl",
+                "designer|userClassName": "tpl",
                 "implHandler": [
                     "<span class=\"legislator-pic\" style=\"background-image: url(http://www.govtrack.us/data/photos/{govtrack_id}-50px.jpeg);\"></span>",
                     "<div class=\"legislator-name\">",
@@ -35,7 +35,8 @@
                     "Website: {[this.siteNotAvailable(values.website)]}",
                     "</div>",
                     "<div class=\"x-list-normal\"><div class=\"x-list-header\">Committee Assignments</div></div>"
-                ]
+                ],
+                "designer|displayName": "tpl"
             },
             "designerId": "6ccb324b-22c0-4b62-9a70-4bad2a220c0c",
             "cn": [
@@ -47,10 +48,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "notAvailable",
+                        "fn": "notAvailable",
                         "designer|params": [
                             "value"
                         ],
-                        "fn": "notAvailable",
                         "implHandler": [
                             "return value ? value : 'Not Available';"
                         ]
@@ -65,10 +67,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "emailNotAvailable",
+                        "fn": "emailNotAvailable",
                         "designer|params": [
                             "value"
                         ],
-                        "fn": "emailNotAvailable",
                         "implHandler": [
                             "return value ? '<a href=\"mailto:' + value + '\">' + value + '</a>' : 'Not Available';"
                         ]
@@ -83,10 +86,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "siteNotAvailable",
+                        "fn": "siteNotAvailable",
                         "designer|params": [
                             "value"
                         ],
-                        "fn": "siteNotAvailable",
                         "implHandler": [
                             "return value ? '<a href=\"' + value + '\">' + value + '</a>' : 'Not Available';"
                         ]
@@ -101,10 +105,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "ordinal",
+                        "fn": "ordinal",
                         "designer|params": [
                             "value"
                         ],
-                        "fn": "ordinal",
                         "implHandler": [
                             "if (isNaN(parseInt(value, 10))) {",
                             "    return value;",

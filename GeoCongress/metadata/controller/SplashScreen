@@ -18,8 +18,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#selectState",
-                "designer|targetType": "Ext.field.Select",
+                "designer|userClassName": "onStateChange",
                 "fn": "onStateChange",
                 "implHandler": [
                     "var record = selectfield.getRecord();",
@@ -30,7 +29,9 @@
                     "    this.updateDistrict();",
                     "}"
                 ],
-                "name": "change"
+                "name": "change",
+                "designer|targetType": "Ext.field.Select",
+                "designer|controlQuery": "#selectState"
             },
             "designerId": "5791c174-5929-41bb-b5c0-0b7c5a7231e0"
         },
@@ -42,15 +43,16 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#lookupBtn",
-                "designer|targetType": "Ext.Button",
+                "designer|userClassName": "onLookupTap",
                 "fn": "onLookupTap",
                 "implHandler": [
                     "this.currentDistrict = Ext.getCmp('districtSpinner').getValue();",
                     "this.loadLegislators();",
                     "this.onSettingsTap();"
                 ],
-                "name": "tap"
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#lookupBtn"
             },
             "designerId": "97e27e0a-1464-48b1-910c-a2182d0dd7a8"
         },
@@ -62,6 +64,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "init",
                 "fn": "init",
                 "implHandler": [
                     "this.location = Ext.create('Ext.util.Geolocation', {",
@@ -85,6 +88,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "onLocationUpdate",
                 "fn": "onLocationUpdate",
                 "implHandler": [
                     "this.hasLocation = true;",
@@ -124,6 +128,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "onLocationError",
                 "fn": "onLocationError",
                 "implHandler": [
                     "this.hasLocation = true;",
@@ -166,6 +171,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "updateSettings",
                 "fn": "updateSettings",
                 "implHandler": [
                     "Ext.getCmp('selectState').setValue(this.currentState.data.abbr);",
@@ -182,8 +188,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#settingsBtn",
-                "designer|targetType": "Ext.Button",
+                "designer|userClassName": "onSettingsTap",
                 "fn": "onSettingsTap",
                 "implHandler": [
                     "if (!this.hasLocation) {",
@@ -198,7 +203,9 @@
                     "    splashScreen.setActiveItem(Ext.getCmp('settingsForm'));",
                     "}"
                 ],
-                "name": "tap"
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#settingsBtn"
             },
             "designerId": "0b47a35d-7da1-42eb-be2b-a10347ac67e2"
         },
@@ -210,6 +217,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "updateDistrict",
                 "fn": "updateDistrict",
                 "implHandler": [
                     "Ext.getCmp('districtSpinner').setMaxValue(this.currentState.data.maxDistrict);",
@@ -226,6 +234,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "loadLegislators",
                 "fn": "loadLegislators",
                 "implHandler": [
                     "var title = this.currentState.data.abbr + ' District ' + this.currentDistrict,",

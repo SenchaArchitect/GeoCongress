@@ -18,13 +18,14 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#legislatorTabPanel",
-                "designer|targetType": "Ext.tab.Panel",
+                "designer|userClassName": "onLegislatorShow",
                 "fn": "onLegislatorShow",
                 "implHandler": [
                     "Ext.getCmp('viewport').getLayout().getAnimation().setReverse(false);"
                 ],
-                "name": "activate"
+                "name": "activate",
+                "designer|targetType": "Ext.tab.Panel",
+                "designer|controlQuery": "#legislatorTabPanel"
             },
             "designerId": "3c23fc0e-0ffe-4ec8-9086-fa897bccbbec"
         },
@@ -36,8 +37,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#legislatorList",
-                "designer|targetType": "Ext.dataview.List",
+                "designer|userClassName": "onLegislatorTap",
                 "fn": "onLegislatorTap",
                 "implHandler": [
                     "if (this.currentLegislator == record.data) {",
@@ -69,7 +69,9 @@
                     "Ext.getCmp('legislatorToolbar').setTitle(this.currentLegislator.title + \" \" + this.currentLegislator.lastname);",
                     "Ext.getCmp('legislatorTabPanel').setActiveItem(0);"
                 ],
-                "name": "itemtap"
+                "name": "itemtap",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "#legislatorList"
             },
             "designerId": "df7235ba-02d7-4178-a380-3e68101b9009"
         },
@@ -81,8 +83,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#billList",
-                "designer|targetType": "Ext.dataview.List",
+                "designer|userClassName": "onBillListActivate",
                 "fn": "onBillListActivate",
                 "implHandler": [
                     "if (this.currentBills != this.currentLegislator.bioguide_id) {",
@@ -94,7 +95,9 @@
                     "    this.currentBills = this.currentLegislator.bioguide_id;",
                     "}"
                 ],
-                "name": "activate"
+                "name": "activate",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "#billList"
             },
             "designerId": "f0f58226-90aa-4140-894d-f789e38267f9"
         },
@@ -106,8 +109,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#billList",
-                "designer|targetType": "Ext.dataview.List",
+                "designer|userClassName": "onBillTap",
                 "fn": "onBillTap",
                 "implHandler": [
                     "var billSummary = Ext.getCmp('billSummary');",
@@ -125,7 +127,9 @@
                     "",
                     "Ext.getCmp('billSummaryToolbar').setTitle(record.data.bill_id);"
                 ],
-                "name": "itemtap"
+                "name": "itemtap",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "#billList"
             },
             "designerId": "0df08f19-9475-418b-8dfe-875df26f3796"
         },
@@ -137,8 +141,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#voteList",
-                "designer|targetType": "Ext.dataview.List",
+                "designer|userClassName": "onVoteListActivate",
                 "fn": "onVoteListActivate",
                 "implHandler": [
                     "if (this.currentVotes != this.currentLegislator.bioguide_id) {",
@@ -155,7 +158,9 @@
                     "    this.currentVotes = this.currentLegislator.bioguide_id;",
                     "}"
                 ],
-                "name": "activate"
+                "name": "activate",
+                "designer|targetType": "Ext.dataview.List",
+                "designer|controlQuery": "#voteList"
             },
             "designerId": "2c7aa853-6cd7-4384-9c4e-b6026a209b22"
         },
@@ -167,14 +172,15 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#legislatorBackButton",
-                "designer|targetType": "Ext.Button",
+                "designer|userClassName": "onLegislatorBackButtonTap",
                 "fn": "onLegislatorBackButtonTap",
                 "implHandler": [
                     "Ext.getCmp('splashScreen').animateTo('right');",
                     "Ext.getCmp('viewport').setActiveItem(Ext.getCmp('splashScreen'));"
                 ],
-                "name": "tap"
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#legislatorBackButton"
             },
             "designerId": "8ee1523c-b215-46b1-a399-87c3f226cbe3"
         },
@@ -186,14 +192,15 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "#billSummaryBackButton",
-                "designer|targetType": "Ext.Button",
+                "designer|userClassName": "onBillSummaryBackButtonTap",
                 "fn": "onBillSummaryBackButtonTap",
                 "implHandler": [
                     "Ext.getCmp('splashScreen').animateTo('right');",
                     "Ext.getCmp('viewport').setActiveItem(Ext.getCmp('legislatorTabPanel'));"
                 ],
-                "name": "tap"
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#billSummaryBackButton"
             },
             "designerId": "8682cd43-36f6-4f45-88a4-07fab518b81b"
         }

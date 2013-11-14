@@ -6,9 +6,9 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "committeelist",
-        "designer|userClassName": "committee.List",
         "id": "committeeList",
+        "designer|userClassName": "committee.List",
+        "designer|userAlias": "committeelist",
         "store": "Committees"
     },
     "designerId": "e020b7c4-7fa0-4cad-94ae-db3d25607568",
@@ -21,10 +21,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|displayName": "itemTpl",
+                "designer|userClassName": "itemTpl",
                 "implHandler": [
                     "<div class=\"committee\">{name}</div>"
-                ]
+                ],
+                "designer|displayName": "itemTpl"
             },
             "designerId": "546509d1-8c4a-4eb1-b12e-449c10ccb056"
         }

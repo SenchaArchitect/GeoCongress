@@ -19,7 +19,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "abbreviated",
-                "type": "boolean"
+                "type": "boolean",
+                "designer|userClassName": "MyField6"
             },
             "designerId": "ef0e8123-995a-4001-b927-e9c2dfccab1b"
         },
@@ -32,7 +33,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "actions",
-                "type": "object"
+                "type": "object",
+                "designer|userClassName": "MyField7"
             },
             "designerId": "6eb201a8-1863-4d86-8c2a-10adac0562c5"
         },
@@ -45,7 +47,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "awaiting_signature",
-                "type": "boolean"
+                "type": "boolean",
+                "designer|userClassName": "MyField8"
             },
             "designerId": "d848ef93-fddf-4ad6-908c-5fc422872459"
         },
@@ -58,7 +61,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "bill_id",
-                "type": "string"
+                "type": "string",
+                "designer|userClassName": "MyField9"
             },
             "designerId": "09579e60-ac61-45d9-bd62-0bc083e06e35"
         },
@@ -71,7 +75,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "bill_type",
-                "type": "string"
+                "type": "string",
+                "designer|userClassName": "MyField10"
             },
             "designerId": "25be014b-c9e0-4d31-97c8-dc4a08fbf64c"
         },
@@ -84,7 +89,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "chamber",
-                "type": "string"
+                "type": "string",
+                "designer|userClassName": "MyField11"
             },
             "designerId": "21836e7b-e60b-4ed5-9af0-b5235d172d22"
         },
@@ -97,7 +103,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "code",
-                "type": "string"
+                "type": "string",
+                "designer|userClassName": "MyField12"
             },
             "designerId": "e2f3b6f5-62bc-41c1-87e1-4911444a7dc4"
         },
@@ -110,7 +117,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "committees",
-                "type": "object"
+                "type": "object",
+                "designer|userClassName": "MyField13"
             },
             "designerId": "a5887add-f583-49c7-a3dd-015faf8c25dd"
         },
@@ -123,7 +131,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "cosponsor_ids",
-                "type": "object"
+                "type": "object",
+                "designer|userClassName": "MyField14"
             },
             "designerId": "c2ee517b-a828-4600-ab18-3f3102b8967f"
         },
@@ -136,7 +145,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "cosponsors",
-                "type": "object"
+                "type": "object",
+                "designer|userClassName": "MyField15"
             },
             "designerId": "0bc1a610-d629-419f-ab61-8a6a81b3293e"
         },
@@ -149,7 +159,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "cosponsors_count",
-                "type": "float"
+                "type": "float",
+                "designer|userClassName": "MyField16"
             },
             "designerId": "f8ec6176-8158-451d-9ea1-71695f130501"
         },
@@ -162,7 +173,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "enacted",
-                "type": "boolean"
+                "type": "boolean",
+                "designer|userClassName": "MyField17"
             },
             "designerId": "07695318-b68e-4e69-85bf-5519c7773263"
         },
@@ -175,7 +187,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "introduced_at",
-                "type": "date"
+                "type": "date",
+                "designer|userClassName": "MyField18"
             },
             "designerId": "ca202e15-8e62-421f-96e6-877c456072b7"
         },
@@ -188,7 +201,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "keywords",
-                "type": "object"
+                "type": "object",
+                "designer|userClassName": "MyField19"
             },
             "designerId": "b2992d27-e90e-4507-a748-2e63f6961375"
         },
@@ -201,7 +215,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "last_action",
-                "type": "object"
+                "type": "object",
+                "designer|userClassName": "MyField5"
             },
             "designerId": "22164eec-e8b1-401e-9488-37a7395abc0d"
         },
@@ -214,7 +229,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "last_action_at",
-                "type": "date"
+                "type": "date",
+                "designer|userClassName": "MyField20"
             },
             "designerId": "28ec768b-edc8-4f92-b4c7-ac1257c28a96"
         },
@@ -227,7 +243,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "last_passage_vote_at",
-                "type": "date"
+                "type": "date",
+                "designer|userClassName": "MyField21"
             },
             "designerId": "1d891951-2398-41db-990d-c28fab9f4a75"
         },
@@ -240,7 +257,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "last_version",
-                "type": "object"
+                "type": "object",
+                "designer|userClassName": "MyField22"
             },
             "designerId": "ea733b50-d507-4fb1-b1b6-f3f91de7790c"
         },
@@ -253,7 +271,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "last_version_on",
-                "type": "string"
+                "type": "string",
+                "designer|userClassName": "MyField23"
             },
             "designerId": "df874a7a-3b57-4647-af32-c3683d1d84e8"
         },
@@ -266,7 +285,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "number",
-                "type": "float"
+                "type": "float",
+                "designer|userClassName": "MyField24"
             },
             "designerId": "9717518c-a297-475b-8759-fc4a07aeb508"
         },
@@ -279,7 +299,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "official_title",
-                "type": "string"
+                "type": "string",
+                "designer|userClassName": "MyField25"
             },
             "designerId": "61c55d58-b70c-4c19-b9c7-8c542da22a43"
         },
@@ -292,7 +313,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "passage_votes",
-                "type": "object"
+                "type": "object",
+                "designer|userClassName": "MyField26"
             },
             "designerId": "1ed4a193-7254-4497-b8a1-28f1ad3199aa"
         },
@@ -305,7 +327,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "passage_votes_count",
-                "type": "float"
+                "type": "float",
+                "designer|userClassName": "MyField27"
             },
             "designerId": "c6470965-fa74-4666-9b1d-7ffcce9b3504"
         },
@@ -318,7 +341,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "popular_title",
-                "type": "string"
+                "type": "string",
+                "designer|userClassName": "MyField28"
             },
             "designerId": "0f223302-4e92-42fc-ba3d-4ce959ff39cc"
         },
@@ -331,7 +355,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "related_bills",
-                "type": "object"
+                "type": "object",
+                "designer|userClassName": "MyField29"
             },
             "designerId": "4ba0f39f-83ee-40d5-9c86-74527f87e01e"
         },
@@ -343,7 +368,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "session"
+                "name": "session",
+                "designer|userClassName": "MyField30"
             },
             "designerId": "92bbfae4-41dc-4bd7-9066-3c0dea5762b1"
         },
@@ -355,7 +381,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "short_title"
+                "name": "short_title",
+                "designer|userClassName": "MyField31"
             },
             "designerId": "44288743-b0e4-41d5-87c2-6f23ace07de2"
         },
@@ -367,7 +394,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "sponsor"
+                "name": "sponsor",
+                "designer|userClassName": "MyField32"
             },
             "designerId": "8373a42a-414e-4e79-882a-07a9af5bac04"
         },
@@ -379,7 +407,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "sponsor_id"
+                "name": "sponsor_id",
+                "designer|userClassName": "MyField33"
             },
             "designerId": "4920afe7-d206-4004-9770-2fe5d90204b2"
         },
@@ -391,7 +420,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "state"
+                "name": "state",
+                "designer|userClassName": "MyField34"
             },
             "designerId": "00c48e33-25bc-463a-ad6f-fde3490ff7e4"
         },
@@ -403,7 +433,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "summary"
+                "name": "summary",
+                "designer|userClassName": "MyField35"
             },
             "designerId": "14cf11f8-1e10-4499-ae89-2d37d3bf2708"
         },
@@ -415,7 +446,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "titles"
+                "name": "titles",
+                "designer|userClassName": "MyField36"
             },
             "designerId": "ff0eaae3-ac8c-474b-a7df-3a0cea803772"
         },
@@ -427,7 +459,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "version_codes"
+                "name": "version_codes",
+                "designer|userClassName": "MyField37"
             },
             "designerId": "fa1742f4-33b1-4e25-8b65-fceba6f28178"
         },
@@ -439,7 +472,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "version_info"
+                "name": "version_info",
+                "designer|userClassName": "MyField38"
             },
             "designerId": "7bb16ad8-dc35-4314-b1e0-02770e0dab5b"
         },
@@ -452,7 +486,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "versions_count",
-                "type": "float"
+                "type": "float",
+                "designer|userClassName": "MyField39"
             },
             "designerId": "54414840-9221-41cf-8998-bb659169503b"
         },
@@ -465,7 +500,8 @@
             "codeClass": null,
             "userConfig": {
                 "name": "vetoed",
-                "type": "boolean"
+                "type": "boolean",
+                "designer|userClassName": "MyField40"
             },
             "designerId": "8ba184da-23d2-4acb-81d5-c8f258a86369"
         }

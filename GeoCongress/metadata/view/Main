@@ -7,9 +7,9 @@
     "codeClass": null,
     "userConfig": {
         "container|animation": "slide",
-        "designer|initialView": true,
-        "designer|userClassName": "Main",
         "id": "viewport",
+        "designer|userClassName": "Main",
+        "designer|initialView": true,
         "layout": "card"
     },
     "designerId": "12706d8b-0c1d-46d6-b70c-5500b2698dfc",
