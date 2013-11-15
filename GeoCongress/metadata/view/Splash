@@ -37,6 +37,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "icon": null,
                         "iconCls": "settings",
                         "id": "settingsBtn",
                         "text": null,

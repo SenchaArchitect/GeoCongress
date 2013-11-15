@@ -19,8 +19,15 @@
    ],
    "css": [
       {
-         "path": "resources/css/app.css",
-         "update": "delta"
+         "update": "delta",
+         "platform": [
+            "phone",
+            "tablet",
+            "desktop"
+         ],
+         "theme": "Default",
+         "path": "theme/sencha-touch-e33dd757-067d-4752-a3ae-8c704068c5c1.css",
+         "_architect_active_theme": true
       }
    ],
    "appCache": {
@@ -42,15 +49,11 @@
    ],
    "archivePath": "archive",
    "requires": [],
-   "id": "14edf97f-ad07-422d-8822-7159e6e9b62a",
+   "id": "6df62493-c9c8-4e3b-aa92-7ce80346db08",
    "_architect": {
       "_comment": "Please don't edit. This is Architect data.",
       "name": "GeoCon",
-      "css": [
-         {
-            "path": "resources/css/app.css"
-         }
-      ],
+      "css": [],
       "js": [],
       "resources": [],
       "requires": []
